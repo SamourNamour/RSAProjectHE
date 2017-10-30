@@ -1,0 +1,1184 @@
+﻿.foo
+{
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	HTML GENERAL   
+
+                 Karima:   Moutard : #dea303
+                           Orange : #ff9933
+						   Old Red : #b52e37	
+						   New Red same as Config : #cd3711		
+						   TextBox and DropDownList Color : #245D75	
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, form, input
+{
+	margin: 0;
+	padding: 0;
+}
+
+.InputBlue
+{
+	color:#245D75;
+}
+
+body
+{
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+hr
+{
+	border-bottom: 1px solid #CCC;
+	color: #FFF;
+}
+
+.DropDownlistStyle
+{
+	color:#245D75;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.LabelInfo , .chkBox
+{
+	font-family: verdana, helvetica, sans-serif;
+	font-weight:bold;
+	font-size:9px;
+	color:#222222;
+}
+
+.chkBox input[type="checkbox"] ,label
+{ 
+    margin-left: 20px; 
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	LINKS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+a
+{
+	color: #D16400;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #cd3711;
+	font-weight: bold;
+}
+
+a img
+{
+	border: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	IMAGES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+img
+{
+	border: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	HEADINGS & TEXT
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: arial, helvetica, sans-serif;
+}
+
+h2, h3
+{
+	font-size: 16px;
+}
+
+.smallprint
+{
+	font-size: x-small;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	SECTION HEADERS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.section-title
+{
+	border-bottom: solid 3px #dfdfdf;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	color: #cd3711;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+.section-title img
+{
+	vertical-align: middle;
+	padding-bottom: 2px;
+}
+
+.section-header .title a
+{
+	text-decoration: none;
+	font-size: 11px;
+	color: #555;
+}
+
+
+.section-header
+{
+	border-bottom: solid 3px #dfdfdf;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	height: 25px;
+}
+
+.section-header .title
+{
+	float: left;
+	color: #cd3711;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: bottom;
+	padding-top: 5px;
+}
+
+.section-header .title img
+{
+	vertical-align: middle;
+	padding-bottom: 2px;
+}
+
+.section-header .options
+{
+	text-align: right;
+	float: right;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	SECTION BODY
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.section-body
+{
+	border:solid 1px #d7d7d7;
+	width:99%;
+
+	font-size:11px;
+	font-family:arial, verdana, helvetica, sans-serif;
+}
+
+.section-body .title ,.section-body Confirm
+{
+	font-weight:bold;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.section-body .Confirm
+{
+	margin-left:10px;
+	margin-bottom:7px;
+	margin-top:10px;
+}
+.section-body .texte
+{
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.section-body a
+{
+	color: #D16400;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.section-body a:hover
+{
+	text-decoration: underline;
+	color: #cd3711;
+	font-weight: bold;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	TABLES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+td
+{
+	vertical-align: middle;
+}
+
+td.fieldname
+{
+	font-size: 12px;
+}
+
+.TableContainer
+{
+}
+
+.TableContainer .Row
+{
+}
+
+.TableContainer .Row .ItemName
+{
+	padding: 3px 10px 0px 0px;
+	display: block;
+	white-space: nowrap;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.TableContainer .Row .ItemValue
+{
+	padding: 3px 0px 0px 0px;
+	vertical-align: middle;
+}
+
+table.adminContent
+{
+	border-collapse: collapse;
+	color: #333;
+	font-size: 12px;
+	margin: 0px;
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+table.adminContent td.adminTitle
+{
+	padding: 4px 4px 4px 4px;
+}
+
+table.adminContent td.adminData
+{
+	padding: 4px 4px 4px 4px;
+}
+
+tr.adminGroup td.adminTitle
+{
+	border-top: solid 1px #d3d3d3;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+tr.adminGroup td.adminData
+{
+	border-top: solid 1px #d3d3d3;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+td.adminTitle
+{
+	text-align: left;
+	vertical-align: middle;
+	width: 210px;
+}
+
+td.adminTitle img
+{
+	vertical-align: bottom;
+	padding-right: 2px;
+}
+
+td.adminData
+{
+	text-align: left;
+	vertical-align: middle;
+}
+td.adminData td.TransmissionTypeCheckBox
+{
+	padding-right:5px;
+}
+td.adminData td.TransmissionType
+{
+	padding-right:30px;
+}
+
+.lblDesabled
+{
+	background-color:#ddd;
+	color:#000;
+	padding:2px 0px 2px 3px;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+}
+
+table.UserContent
+{
+	border-collapse: collapse;
+	color: #333;
+	font-size: 12px;
+	margin: 0px;
+	width: 500px;
+	vertical-align: middle;
+	text-align: left;
+}
+table.UserContent td.UserTitle
+{
+	padding: 4px 4px 4px 4px;
+}
+table.UserContent td.UserData
+{
+	padding: 4px 4px 4px 4px;
+}
+td.UserTitle
+{
+	text-align: left;
+	vertical-align: middle;
+	width: 145px;
+}
+
+td.UserTitle img
+{
+	vertical-align: bottom;
+	padding-right: 2px;
+}
+
+td.UserData
+{
+	text-align: left;
+	vertical-align: middle;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	TAB CONTROL
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.grey .ajax__tab_header
+{
+	font-family: "Helvetica Neue" , Arial, Sans-Serif;
+	background: url(images/tab-line.png) repeat-x bottom;
+	font-size: 12px;
+	display: block;
+}
+
+.grey .ajax__tab_header .ajax__tab_outer
+{
+	background: url(images/tab.png) no-repeat left top;
+	border-color: #222;
+	color: #222;
+	padding-left: 10px;
+	margin-right: 3px;
+}
+
+.grey .ajax__tab_header .ajax__tab_inner
+{
+	background: url(images/tab.png) no-repeat right top;
+	border-color: #666;
+	color: #666;
+	padding: 3px 10px 2px 0px;
+}
+
+.grey .ajax__tab_hover .ajax__tab_inner
+{
+	color: #000;
+}
+
+.grey .ajax__tab_active .ajax__tab_outer
+{
+	background: url(images/tab.png) no-repeat 0pt -40px;
+	border-bottom-color: #ffffff;
+}
+
+.grey .ajax__tab_active .ajax__tab_inner
+{
+	background: url(images/tab.png) no-repeat right -40px;
+	color: #009FFF;
+	border-color: #333;
+}
+
+.grey .ajax__tab_body
+{
+	background-color: #fff;
+	border: solid 1px #d7d7d7;
+	border-top-width: 0;
+	padding: 10px 10px 10px 10px;
+}
+
+.ajax__calendar_container { z-index : 1000 ; }
+
+.ajax__calendar {
+    position: relative;
+    left: 0px !important;
+    top: 0px !important;
+    visibility: visible; display: block;
+}
+.ajax__calendar iframe
+{
+    left: 0px !important;
+    top: 0px !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	SERVER CONTROLS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.adminButtonRed
+{
+	background: url(images/red_button_bg.gif) no-repeat 25% 50% #cd3711;
+	border: 1px solid #cd3711;
+	margin-bottom: 3px;
+	color: #FFF;
+	height: 22px;
+	padding: 0 10px 0 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.adminButtonBlue
+{
+	background: url(images/blue_button_bg.gif) no-repeat 25% 50% #333;
+	border: 1px solid #0f72ac;
+	margin-bottom: 3px;
+	color: #FFF;
+	height: 22px;
+	padding: 0 10px 0 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.adminButton
+{
+	background: url(images/grey_button_bg.gif) no-repeat 25% 50% #333;
+	border: 1px solid #333;
+	margin-bottom: 3px;
+	color: #FFF;
+	height: 22px;
+	padding: 0 10px 0 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-align:center;
+}
+
+.adminInput
+{
+	border: 1px solid #acacac;
+	width: 250px;
+}
+
+.adminInputNoWidth
+{
+	border: 1px solid #acacac;
+}
+
+label
+{
+	padding-left: 3px;
+}
+
+.adminButtondown
+{
+	background: url(images/Down.png) no-repeat #333;
+	border: 1px solid #333;
+	margin-bottom: 3px;
+	color: #FFF;
+	text-align: right;
+	height: 22px;
+	width:22px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.adminButtonup
+{
+	background: url(images/up.png) no-repeat #333;
+	border: 1px solid #333;
+	margin-bottom: 3px;
+	color: #FFF;
+	text-align: right;
+	height: 22px;
+	width:22px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	ADMIN GRID VIEW
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.tablestyle
+{
+	font-family: arial;
+	font-size: 11px;
+	border: 1px solid #808080;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	color: #245D75;
+	width: 100%;
+}
+
+.tablestyle td a
+{
+	color: #D16400;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.altrowstyle
+{
+	background-color: #f8f9fa;
+}
+
+.headerstyle th
+{
+	background: #676767 url('images/admin-gvw-bg.gif') repeat-x 50%;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	border: solid 1px #676767;
+}
+
+.headerstyle th a
+{
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	display: block;
+	padding-right: 10px;
+}
+.headerstyle th a:hover
+{
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	display: block;
+	padding-right: 10px;
+	text-decoration:underline;
+}
+
+.rowstyle td, .altrowstyle td
+{
+	padding: 4px 10px 4px 10px;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+}
+
+.PagerStyle
+{
+	height: 28px;
+	background: url(Images/grid_header_back.png) repeat-x;
+	background: #EEEEEE;
+	vertical-align: middle;
+}
+
+.LabelBarre
+{
+	text-decoration:line-through;
+}
+
+.BannerTypeStyle
+{
+	font-weight: bold;
+	color: #D16400;
+}
+
+.collapsePanelHeader{
+	width:100%;
+	height:30px;
+	font-weight:bold;
+}
+
+.collapsePanel {
+	
+	/*height:0px;*/
+	overflow:hidden;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	FORUM TABLE
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.forumtable
+{
+	font-family: arial;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color: #245D75;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #808080;
+	text-align: center;
+}
+
+.forumtable td
+{
+	border: 1px solid #808080;
+}
+
+.forumtable td a
+{
+	color: #D16400;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+forumtable .headerstyle th
+{
+	background: url('images/admin-gvw-bg.gif') repeat-x 50%;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	vertical-align: middle;
+	font-weight: bold;
+	border: solid 1px #676767;
+}
+
+.forumtable tr.forumgroup td
+{
+	padding: 4px 0 4px 0;
+	background-color: #F4FAFF;
+}
+
+.forumtable tr.forumgroup td.name
+{
+	padding-left: 10px;
+	text-align: left;
+}
+
+.forumtable tr.forumgroup td.name a
+{
+	color: #245D75;
+}
+
+.forumtable tr.forum td
+{
+	padding: 4px 0 4px 0;	
+}
+
+.forumtable tr.forum td.name
+{
+	padding-left: 25px;	
+	text-align: left;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	HOME PAGES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.homepage
+{
+}
+
+.homepage .intro
+{
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	background: #fcfabc;
+	border: dashed 1px #dfdfdf;
+	margin-bottom: 10px;
+}
+
+.homepage .options
+{
+	padding: 10px 10px 10px 10px;
+	background: #e7efef;
+}
+
+.homepage .options ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.homepage .options ul li
+{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	list-style: none;
+}
+
+.homepage .options .title
+{
+}
+
+.homepage .options .description p
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	RATING
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.ratingStar
+{
+	font-size: 0pt;
+	width: 13px;
+	height: 12px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.filledRatingStar
+{
+	background-image: url(Images/FilledStar.png);
+}
+
+.emptyRatingStar
+{
+	background-image: url(Images/EmptyStar.png);
+}
+
+.savedRatingStar
+{
+	background-image: url(Images/SavedStar.png);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	MISC. CLASSES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.clear
+{
+	border: medium none;
+	clear: both;
+	float: none;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+.validatorCalloutHighlight
+{
+	background-color: #FFFBD5;
+}
+
+.progress
+{
+	text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Login. CLASSES
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+div.login-block
+{
+	position: absolute;
+	text-align: left;
+	margin: -140px 10px 10px -170px;
+	padding: 0px 0px 0px 0px;
+	top: 50%;
+	left: 50%;
+	width: 344px;
+	height: 350px;
+	background-image: url("images/logo-bg.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	/*background-color: #77787b;*/
+	color: #000000;
+}
+
+div.login-block table.login-table-container
+{
+	margin: 120px 20px 0px 70px;
+}
+
+.table-container .row .item-name
+{
+	padding: 3px 10px 0px 0px;
+	display: block;
+	white-space: nowrap;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+.table-container .row .item-value
+{
+	padding: 3px 0px 0px 0px;
+	vertical-align: middle;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Login. PopupExtender
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.pnlPopup
+{
+	width: 250px; 
+	padding-top: 20px;
+    padding-right: 20px; 
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: none; 
+    border-left: black 2px solid; 
+    border-top: black 2px solid;
+    border-bottom: black 2px solid; 
+    border-right: black 2px solid;
+    background-color: white
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	Descrition
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.TdDetails,.overview
+{
+	vertical-align:top;
+	width:20%;
+}
+.overview
+{
+	float: right;
+	width: 310px;
+	margin-right: 0px;
+	padding: 5px 5px 5px 5px;
+	border: dashed 1px #d3d3d3;
+	margin-bottom:10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	MyDescriptionProgress
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.GlobalProgresse
+{
+	width:100%;
+	border-bottom:solid 2px #f3f3f3;
+	text-align:center;
+	vertical-align:middle;
+	padding-bottom:5px;
+	margin-bottom:20px;
+}
+.GlobalProgresse td
+{
+	width:80px;
+}
+.LabelProgress,.LabelEnabled,.LabelDesabled
+{
+	font-family:Arial;
+	font-size:11px;
+}
+.LabelEnabled
+{
+	color:#727272;
+}
+
+.LabelDesabled
+{
+	color:#e2e2e2;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+	UserControl : ImageUpload
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.TableImageUpload , .ButtonRemoveFile, .ImageFile
+{
+	top:0px;
+	width:250px;
+	height:130px;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+.ImageFile
+{
+	width:86px;
+	height:118px;
+}
+.ButtonRemoveFile 
+{
+	width:250px;
+	border:solid 1px #acacac;
+	background-color:#ece9d8;
+	color:#000000;
+	height:20px;
+}
+
+.languagelist
+{
+ background: #e3e3e3;
+ border: solid 1px #3a3a3a;
+ font-size:11px;
+ width:100px;
+}
+
+
+.MaskedEditFocus
+{
+    background-color: #ffffcc;
+    color: #245D75; /*#000000;*/
+}
+
+.MaskedEditError
+{
+    background-color: #ffcccc;
+}
+
+
+/*******************************************************************/
+/*  Start LoadCover Cover										   */
+/*******************************************************************/
+.loading_Cover {
+	height:160px; /* 230px;*/
+	Width: 112px; /*200px;*/
+	Height:160px;
+	background-color:#eee;
+	background-image:url("images/spinner.gif");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+/*----~.~ End LoadCover Style ~.~----------------------------------*/
+
+input[disabled="disabled"], input.disabled, input[disabled]
+{
+	background-color:#ebebe4;
+	border:solid 1px #a5acb2;
+	color:#245d75;
+}
+
+select[disabled="disabled"], select.disabled, select[disabled]
+{
+	background-color:#ebebe4;
+	border:solid 1px #a5acb2;
+	color:#245d75;
+}
+
+textarea[disabled="disabled"], textarea.disabled, textarea[disabled]
+{
+	background-color:#ebebe4;
+	border:solid 1px #a5acb2;
+	color:#245d75;
+}
+
+
+
+
+table.PVODReport
+{
+	border-collapse: collapse;
+	color: #333;
+	font-size: 12px;
+	margin: 0px;
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+table.PVODReport td.adminTitle
+{
+	padding: 4px 4px 4px 4px;
+}
+
+table.PVODReport td.adminData
+{
+	padding: 4px 4px 4px 4px;
+}
+
+tr.adminGroup td.adminTitle
+{
+	border-top: solid 1px #d3d3d3;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+tr.adminGroup td.adminData
+{
+	border-top: solid 1px #d3d3d3;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+td.adminTitle
+{
+	text-align: left;
+	vertical-align: middle;
+	width: 210px;
+}
+
+td.adminTitle img
+{
+	vertical-align: bottom;
+	padding-right: 2px;
+}
+
+
+
+.Label
+{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	color: #cd3711;
+	background-color: Transparent;
+}
+
+fieldset
+{
+	margin:0px 10px 10px 10px;
+	padding:10px 5px 10px 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-color:#dfdfdf;
+}
+
+legend
+{
+	margin: 0;
+	padding-left: 10px;
+	padding-right:10px;
+	font-family: Verdana,Tahoma,Helvetica,Helvetica-Narrow,sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	background-color: Transparent;
+	color:#cd3711;
+}
+
+/*******************************************************************/
+/*  Start Table Advertisement Style								   */
+/*******************************************************************/
+table.AdvTable
+{
+	border-color:Red;
+	border-collapse: collapse;
+	color: #333;
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: left;
+	margin: 0; 
+	padding:0;
+}
+table.AdvTable td.InfosCellule
+{
+	text-align:right;
+	width:110px;
+	padding-right:10px;
+}
+
+
+.GridViewStyle
+{   
+    border-style:none;
+    padding: 4px;
+}
+
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+
+.GridViewHeaderStyle th
+{
+    border-left: 1px solid #EBE9ED;
+    border-right: 1px solid #EBE9ED;
+}
+
+.GridViewHeaderStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewFooterStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewRowStyle
+{
+    background-color: #F7F6F3;
+    color: #333333;
+}
+
+.GridViewAlternatingRowStyle
+{
+    background-color: #FFFFFF;
+    color: #284775;
+}
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+	padding:4px;
+    border-style:none;
+}
+
+.GridViewSelectedRowStyle
+{
+    background-color: #E2DED6;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewPagerStyle
+{
+    background-color: #284775;
+    color: #FFFFFF;
+}
+
+.GridViewPagerStyle table /* to center the paging links*/
+{
+    margin: 0 auto 0 auto;
+}
+
+/*----~.~ End Advertisement Style ~.~------------------------------*/
+

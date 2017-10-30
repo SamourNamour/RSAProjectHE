@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="42ae1fba-db03-4cef-9c7b-cf806a21492c" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8085/MEBSCatalog" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="ce3e9ae7-7697-4b26-8ffb-117b3d8d3831" SourceId="1" SourceUrl="http://localhost:8085/MEBSCatalog" />
+  </Metadata>
+  <Extensions />
+</ReferenceGroup>

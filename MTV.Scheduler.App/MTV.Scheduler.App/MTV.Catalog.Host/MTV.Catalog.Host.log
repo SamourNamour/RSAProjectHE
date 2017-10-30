@@ -1,0 +1,10 @@
+2014-05-15 12:32:07,939 INFO  MTV.Catalog.Common.LogManager: Initialising MTV.Catalog.Service service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null RELEASE windows service mode.
+2014-05-15 12:32:10,339 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-05-15 12:32:12,119 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-05-15 12:33:03,979 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog Closed.

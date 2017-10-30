@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap  xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home"  description="Home">
+    <!-- Ingest AR -->
+    <!--siteMapNode title="Traffic&#160;System&#160;(PROVYS)" 
+                 url="~/TrafficSystemHome.aspx"
+                 IconUrl="~/Common/ico-Epg.png" 
+                 description="Traffic System (PROVYS)">
+        <siteMapNode title="Search &#160; &amp; &#160;Edition" url="~/TrafficSystemOutput.aspx" description="Search &amp; Edition"></siteMapNode>
+    </siteMapNode-->
+    <!-- End Ingest AR -->
+   
+    <!-- AR Schedule Viewer -->
+    <!--siteMapNode title="Automatic&#160;Record"
+                 url="~/AutomaticRecordHome.aspx"
+                 IconUrl="~/Common/ico-view.png"
+                 description="Automatic Record">
+      <siteMapNode title="Programming" url="~/AutomaticRecordPrograming.aspx" description="Automatic Record Programming"></siteMapNode>
+      <siteMapNode title="Schedule(s)&#160;Viewer" url="~/AutomaticSchedulesViewer.aspx" description="Automatic Record Schedule Viewer"></siteMapNode>
+    </siteMapNode-->
+    <!-- End AR Schedule Viewer -->
+
+    <!-- Ingest DC-->
+    <siteMapNode title="Push&#160;Vod" url="~/PushVodHome.aspx"  IconUrl="~/Common/schedule.png" description="Push Vod Management">
+      <siteMapNode title="Search &#160; &amp; &#160;Edition" url="~/VodSystemOutput.aspx" description="Search &amp; Edition"></siteMapNode>
+      <siteMapNode title="Programming" url="~/VodPrograming.aspx" description="Vod Programming"></siteMapNode>
+    </siteMapNode>
+    <!-- End Ingest DC -->
+
+    <!-- Advertising -->
+    <!--<siteMapNode title="Advertising"
+                 url="~/Advertising.aspx"
+                 IconUrl="~/Common/ico-adv.png"
+                 description="Advertising">
+    </siteMapNode>-->
+    <!-- End Advertising -->
+    <!-- Catalog -->
+    <siteMapNode title="Catalog" url="~/Admin/CatalogHome.aspx" IconUrl="~/Admin/Common/ico-catalog.png" description="Catalog Home">
+      <siteMapNode title="Categories" url="~/Admin/Categories.aspx" description="Manage Categories"/>
+    </siteMapNode>
+    <!-- End Catalog -->
+
+    <!-- Settings -->
+    <siteMapNode title="Configuration Home" url="~/Admin/ConfigurationHome.aspx" IconUrl="~/Admin/Common/ico-configuration.png" description="Configuration Home">
+      <siteMapNode title="Settings" url="~/Admin/Settings.aspx" description="Manage Settings"/>
+      <siteMapNode title="Encapsulator" url="~/Admin/SystemEncapsulator.aspx" description="Manage Encapsulators"/>
+    </siteMapNode>
+    <!-- End Settings -->
+
+    <!-- Users -->
+    <siteMapNode title="Users Home" url="~/Admin/UsersHome.aspx" IconUrl="~/Admin/Common/ico-customers.png" description="Users Home">
+      <siteMapNode title="Users" url="~/Admin/Users.aspx" description="Manage Users"/>
+    </siteMapNode>
+    <!-- End Users -->
+    
+    </siteMapNode>
+</siteMap>

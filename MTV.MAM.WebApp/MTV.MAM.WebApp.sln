@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEBSMAMUI", "MEBSMAMUI\MEBSMAMUI.csproj", "{AF43AA7E-D59F-443A-8424-417E8CBC21D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76B407FC-0A03-4CD6-8706-90680EB649AB} = {76B407FC-0A03-4CD6-8706-90680EB649AB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEBS.Library.Common", "MEBS.Library.Common\MEBS.Library.Common.csproj", "{76B407FC-0A03-4CD6-8706-90680EB649AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF43AA7E-D59F-443A-8424-417E8CBC21D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF43AA7E-D59F-443A-8424-417E8CBC21D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF43AA7E-D59F-443A-8424-417E8CBC21D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF43AA7E-D59F-443A-8424-417E8CBC21D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B407FC-0A03-4CD6-8706-90680EB649AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B407FC-0A03-4CD6-8706-90680EB649AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B407FC-0A03-4CD6-8706-90680EB649AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B407FC-0A03-4CD6-8706-90680EB649AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

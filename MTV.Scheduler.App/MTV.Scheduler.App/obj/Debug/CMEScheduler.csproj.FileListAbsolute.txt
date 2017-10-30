@@ -1,0 +1,83 @@
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe.config
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\Logger.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\TabStrip.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.dll
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\Logger.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.pdb
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\ResolveAssemblyReference.cache
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.Properties.Resources.resources
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.AboutForm.resources
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.MainForm.resources
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.UI.MainGuiUserControl.resources
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.OptionsForm.resources
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\GenerateResource.read.1.tlog
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\GenerateResource.write.1.tlog
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.exe
+I:\EBS_Coding_Space\CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe.config
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.exe
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\Logger.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\TabStrip.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.dll
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\Logger.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.pdb
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\ResolveAssemblyReference.cache
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.Properties.Resources.resources
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.AboutForm.resources
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.MainForm.resources
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.UI.MainGuiUserControl.resources
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.OptionsForm.resources
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\GenerateResource.read.1.tlog
+I:\EBS_Coding_Space\HE CME\CMEScheduler\CMEScheduler\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe.config
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\Logger.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\TabStrip.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.UtilityAPI.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Core.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\CMEScheduler.Extension.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\Logger.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Controller.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.Common.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\FileWatcherUtilities.FileWatcherServiceContract.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.Properties.Resources.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.AboutForm.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.MainForm.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.UI.MainGuiUserControl.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMESchedulerApp.UI.OptionsForm.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\obj\Debug\CMEScheduler.csproj.GenerateResource.Cache

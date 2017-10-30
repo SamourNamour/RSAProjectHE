@@ -1,0 +1,17 @@
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\edtFTPnet.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\edtFTPnet.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\MTV.Library.Common.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\bin\Release\edtFTPnet.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.MAM.WebApp\MTV.Library.Common\obj\Release\MTV.Library.Common.pdb

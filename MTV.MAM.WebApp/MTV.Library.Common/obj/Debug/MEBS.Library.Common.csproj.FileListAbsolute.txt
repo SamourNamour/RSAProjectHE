@@ -1,0 +1,29 @@
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.pdb
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\bin\Debug\edtFTPnet.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.pdb
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.pdb
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\edtFTPnet.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.pdb
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.pdb
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\bin\Debug\edtFTPnet.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\ResolveAssemblyReference.cache
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.pdb
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.pdb
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\bin\Debug\edtFTPnet.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.pdb
+K:\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.dll
+K:\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MEBS.Library.Common\bin\Debug\MEBS.Library.Common.pdb
+K:\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MEBS.Library.Common\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.dll
+K:\Developpement\MTV.SIYAYA\MTV.MAM.WebApp\MEBS.Library.Common\obj\Debug\MEBS.Library.Common.pdb

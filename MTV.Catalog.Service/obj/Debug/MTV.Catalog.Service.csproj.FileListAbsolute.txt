@@ -1,0 +1,36 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+K:\Developpement\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config
+P:\Work\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.csprojResolveAssemblyReference.cache

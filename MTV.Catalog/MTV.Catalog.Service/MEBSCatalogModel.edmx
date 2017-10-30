@@ -1,0 +1,1912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="sa_mebsModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="sa_mebsModelStoreContainer">
+          <EntitySet Name="mebs_category" EntityType="sa_mebsModel.Store.mebs_category" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_category_language_mapping" EntityType="sa_mebsModel.Store.mebs_category_language_mapping" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_channel" EntityType="sa_mebsModel.Store.mebs_channel" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_channeltuning" EntityType="sa_mebsModel.Store.mebs_channeltuning" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_encapsulator" EntityType="sa_mebsModel.Store.mebs_encapsulator" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_ingesta" EntityType="sa_mebsModel.Store.mebs_ingesta" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_ingesta_advertisement_mapping" EntityType="sa_mebsModel.Store.mebs_ingesta_advertisement_mapping" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_ingesta_category_mapping" EntityType="sa_mebsModel.Store.mebs_ingesta_category_mapping" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_ingestadetails" EntityType="sa_mebsModel.Store.mebs_ingestadetails" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_language" EntityType="sa_mebsModel.Store.mebs_language" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_log" EntityType="sa_mebsModel.Store.mebs_log" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_login" EntityType="sa_mebsModel.Store.mebs_login" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_logtype" EntityType="sa_mebsModel.Store.mebs_logtype" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_mediafile" EntityType="sa_mebsModel.Store.mebs_mediafile" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_mixedcategory" EntityType="sa_mebsModel.Store.mebs_mixedcategory" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_resource" EntityType="sa_mebsModel.Store.mebs_resource" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_resource_language_mapping" EntityType="sa_mebsModel.Store.mebs_resource_language_mapping" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_roles" EntityType="sa_mebsModel.Store.mebs_roles" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_schedule" EntityType="sa_mebsModel.Store.mebs_schedule" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_session" EntityType="sa_mebsModel.Store.mebs_session" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_settings" EntityType="sa_mebsModel.Store.mebs_settings" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_useractivity" EntityType="sa_mebsModel.Store.mebs_useractivity" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_userdetails" EntityType="sa_mebsModel.Store.mebs_userdetails" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_usersinroles" EntityType="sa_mebsModel.Store.mebs_usersinroles" store:Type="Tables" Schema="sa_mebs" />
+          <EntitySet Name="mebs_videoitem" EntityType="sa_mebsModel.Store.mebs_videoitem" store:Type="Tables" Schema="sa_mebs" />
+          <AssociationSet Name="FK_IdCategory1" Association="sa_mebsModel.Store.FK_IdCategory1">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_category_language_mapping" EntitySet="mebs_category_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdCategoryAss" Association="sa_mebsModel.Store.FK_IdCategoryAss">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_ingesta_category_mapping" EntitySet="mebs_ingesta_category_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChannel" Association="sa_mebsModel.Store.FK_IdChannel">
+            <End Role="mebs_channel" EntitySet="mebs_channel" />
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChannelAss" Association="sa_mebsModel.Store.FK_IdChannelAss">
+            <End Role="mebs_channel" EntitySet="mebs_channel" />
+            <End Role="mebs_channeltuning" EntitySet="mebs_channeltuning" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChildCategoria" Association="sa_mebsModel.Store.FK_IdChildCategoria">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_mixedcategory" EntitySet="mebs_mixedcategory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdIngestaAss" Association="sa_mebsModel.Store.FK_IdIngestaAss">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingesta_category_mapping" EntitySet="mebs_ingesta_category_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLanguage" Association="sa_mebsModel.Store.FK_IdLanguage">
+            <End Role="mebs_language" EntitySet="mebs_language" />
+            <End Role="mebs_category_language_mapping" EntitySet="mebs_category_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLanguage1" Association="sa_mebsModel.Store.FK_IdLanguage1">
+            <End Role="mebs_language" EntitySet="mebs_language" />
+            <End Role="mebs_resource_language_mapping" EntitySet="mebs_resource_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLogType" Association="sa_mebsModel.Store.FK_IdLogType">
+            <End Role="mebs_logtype" EntitySet="mebs_logtype" />
+            <End Role="mebs_log" EntitySet="mebs_log" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdParentCategoria" Association="sa_mebsModel.Store.FK_IdParentCategoria">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_mixedcategory" EntitySet="mebs_mixedcategory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdResource" Association="sa_mebsModel.Store.FK_IdResource">
+            <End Role="mebs_resource" EntitySet="mebs_resource" />
+            <End Role="mebs_resource_language_mapping" EntitySet="mebs_resource_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta" Association="sa_mebsModel.Store.FK_Ingesta">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingestadetails" EntitySet="mebs_ingestadetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta_Advertisement" Association="sa_mebsModel.Store.FK_Ingesta_Advertisement">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingesta_advertisement_mapping" EntitySet="mebs_ingesta_advertisement_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta_VideoItem" Association="sa_mebsModel.Store.FK_Ingesta_VideoItem">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_videoitem" EntitySet="mebs_videoitem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IngestaSchedule" Association="sa_mebsModel.Store.FK_IngestaSchedule">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_schedule" EntitySet="mebs_schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Schedule_Advertisement" Association="sa_mebsModel.Store.FK_Schedule_Advertisement">
+            <End Role="mebs_schedule" EntitySet="mebs_schedule" />
+            <End Role="mebs_ingesta_advertisement_mapping" EntitySet="mebs_ingesta_advertisement_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="session_FK_1" Association="sa_mebsModel.Store.session_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_session" EntitySet="mebs_session" />
+          </AssociationSet>
+          <AssociationSet Name="useractivity_FK_1" Association="sa_mebsModel.Store.useractivity_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_useractivity" EntitySet="mebs_useractivity" />
+          </AssociationSet>
+          <AssociationSet Name="userdetails_FK_1" Association="sa_mebsModel.Store.userdetails_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_userdetails" EntitySet="mebs_userdetails" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="mebs_category">
+          <Key>
+            <PropertyRef Name="IdCategory" />
+          </Key>
+          <Property Name="IdCategory" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="varchar" MaxLength="300" />
+          <Property Name="Visibility" Type="varchar" MaxLength="30" />
+          <Property Name="ParentID" Type="int" />
+          <Property Name="Orden" Type="int" />
+          <Property Name="Default" Type="int" />
+          <Property Name="MediasetLCN" Type="int" />
+          <Property Name="StandardLCN" Type="int" />
+          <Property Name="IsUnclass" Type="bit" />
+          <Property Name="IsMixed" Type="bit" />
+          <Property Name="IsPublished" Type="bit" />
+          <Property Name="DateCreation" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_category_language_mapping">
+          <Key>
+            <PropertyRef Name="IdCategoryDetails" />
+          </Key>
+          <Property Name="IdCategoryDetails" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdCategory" Type="int" />
+          <Property Name="IdLanguage" Type="int" />
+          <Property Name="Title" Type="varchar" MaxLength="300" />
+          <Property Name="VirtualChannelDisignation" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="mebs_channel">
+          <Key>
+            <PropertyRef Name="IdChannel" />
+          </Key>
+          <Property Name="IdChannel" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Bus" Type="varchar" MaxLength="50" />
+          <Property Name="LongName" Type="varchar" MaxLength="150" />
+          <Property Name="ShortName" Type="varchar" MaxLength="50" />
+          <Property Name="ChannelType" Type="tinyint" />
+          <Property Name="ChannelKey" Type="varchar" MaxLength="100" />
+          <Property Name="LogoFileName" Type="varchar" MaxLength="50" />
+          <Property Name="Logo" Type="blob" />
+          <Property Name="DateCreation" Type="timestamp" Nullable="false" Precision="0" />
+          <Property Name="XmlFileName" Type="varchar" MaxLength="255" />
+          <Property Name="Enabled" Type="bool" />
+        </EntityType>
+        <EntityType Name="mebs_channeltuning">
+          <Key>
+            <PropertyRef Name="IdChannelTuning" />
+          </Key>
+          <Property Name="IdChannelTuning" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdChannel" Type="int" Nullable="false" />
+          <Property Name="ServiceID" Type="uint" Nullable="false" />
+          <Property Name="TransportStreamID" Type="uint" Nullable="false" />
+          <Property Name="OriginalNetworkID" Type="uint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_encapsulator">
+          <Key>
+            <PropertyRef Name="IdEncapsulator" />
+          </Key>
+          <Property Name="IdEncapsulator" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="250" />
+          <Property Name="Type" Type="varchar" MaxLength="250" />
+          <Property Name="Status" Type="uint" />
+          <Property Name="IsPublished" Type="bit" />
+          <Property Name="IpAddress" Type="varchar" MaxLength="250" />
+          <Property Name="MultiInstancesNum" Type="uint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta">
+          <Key>
+            <PropertyRef Name="IdIngesta" />
+          </Key>
+          <Property Name="IdIngesta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EventId" Type="varchar" MaxLength="255" />
+          <Property Name="Code_Package" Type="varchar" MaxLength="255" />
+          <Property Name="Type" Type="tinyint" />
+          <Property Name="IdChannel" Type="int" Nullable="false" />
+          <Property Name="Date_Creation" Type="datetime" />
+          <Property Name="Estimated_Start" Type="datetime" />
+          <Property Name="Estimated_Stop" Type="datetime" />
+          <Property Name="Expiration_time" Type="datetime" />
+          <Property Name="Immortality_time" Type="datetime" />
+          <Property Name="Validity_time" Type="int" Nullable="false" />
+          <Property Name="AvailableAfter_time" Type="int" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="300" />
+          <Property Name="ParentalRating" Type="varchar" MaxLength="45" />
+          <Property Name="PosterFileName" Type="varchar" MaxLength="100" />
+          <Property Name="Last_Update" Type="datetime" />
+          <Property Name="IsExpired" Type="bit" Nullable="false" />
+          <Property Name="Poster" Type="longblob" />
+          <Property Name="Duration" Type="varchar" MaxLength="50" />
+          <Property Name="IsPublished" Type="bit" />
+          <Property Name="XmlFileName" Type="varchar" MaxLength="255" />
+          <Property Name="MinLifeAfterFirstAccess" Type="int" />
+          <Property Name="LifeAfterFirstAccess" Type="int" />
+          <Property Name="MinLifeAfterActivation" Type="int" />
+          <Property Name="LifeAfterActivation" Type="int" />
+          <Property Name="DisableAccess" Type="bit" />
+          <Property Name="ActiveSince" Type="varchar" MaxLength="50" />
+          <Property Name="ActiveDuring" Type="int" />
+          <Property Name="ActiveTimeAfterFirstAccess" Type="int" />
+          <Property Name="MinActiveTimeAfterFirstAccess" Type="int" />
+          <Property Name="DrmProtected" Type="bit" />
+          <Property Name="CopyControl" Type="varchar" MaxLength="45" />
+          <Property Name="MaxAccesses" Type="int" />
+          <Property Name="Hidden" Type="bit" />
+          <Property Name="PublishAfter" Type="int" />
+          <Property Name="SelfCommercial" Type="int" />
+          <Property Name="MediaFileNameAfterRedundancy" Type="varchar" Nullable="false" MaxLength="150" />
+          <Property Name="MediaFileSizeAfterRedundancy" Type="ubigint" Nullable="false" />
+          <Property Name="OriginalFileName" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta_advertisement_mapping">
+          <Key>
+            <PropertyRef Name="IdIngestaAdvertisement" />
+          </Key>
+          <Property Name="IdIngestaAdvertisement" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="int" Nullable="false" />
+          <Property Name="IdSchedule" Type="int" Nullable="false" />
+          <Property Name="ActionName" Type="varchar" MaxLength="255" />
+          <Property Name="StartTimePoint" Type="varchar" MaxLength="250" />
+          <Property Name="StopTimePoint" Type="varchar" MaxLength="250" />
+          <Property Name="MaxFwdSpeed" Type="int" />
+          <Property Name="MaxRwdSpeed" Type="int" />
+          <Property Name="CanSkip" Type="bit" />
+          <Property Name="DateCreation" Type="datetime" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta_category_mapping">
+          <Key>
+            <PropertyRef Name="IdIngestaCategory" />
+          </Key>
+          <Property Name="IdIngestaCategory" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="int" Nullable="false" />
+          <Property Name="IdCategory" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_ingestadetails">
+          <Key>
+            <PropertyRef Name="IdIngestaDetails" />
+          </Key>
+          <Property Name="IdIngestaDetails" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="int" Nullable="false" />
+          <Property Name="DetailsName" Type="varchar" MaxLength="100" />
+          <Property Name="DetailsValue" Type="text" />
+        </EntityType>
+        <EntityType Name="mebs_language">
+          <Key>
+            <PropertyRef Name="IdLanguage" />
+          </Key>
+          <Property Name="IdLanguage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="300" />
+          <Property Name="LanguageCulture" Type="varchar" MaxLength="50" />
+          <Property Name="ISOCode" Type="varchar" MaxLength="20" />
+          <Property Name="IsPublished" Type="bit" />
+          <Property Name="DateCreation" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_log">
+          <Key>
+            <PropertyRef Name="Idlog" />
+          </Key>
+          <Property Name="Idlog" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdLogType" Type="int" Nullable="false" />
+          <Property Name="Message" Type="text" />
+          <Property Name="Exception" Type="text" />
+          <Property Name="DateCreation" Type="datetime" Nullable="false" />
+          <Property Name="IpAdress" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="mebs_login">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserGUID" Type="varchar" MaxLength="255" />
+          <Property Name="Login" Type="varchar" MaxLength="255" />
+          <Property Name="Password" Type="varchar" MaxLength="255" />
+          <Property Name="PasswordQuestion" Type="varchar" MaxLength="255" />
+          <Property Name="PasswordAnswer" Type="varchar" MaxLength="255" />
+          <Property Name="Email" Type="varchar" MaxLength="255" />
+          <Property Name="IsActive" Type="bool" />
+          <Property Name="LastActivityDate" Type="datetime" />
+          <Property Name="LastLoginDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="mebs_logtype">
+          <Key>
+            <PropertyRef Name="IdLogType" />
+          </Key>
+          <Property Name="IdLogType" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicationName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="mebs_mediafile">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GUID" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="OriginalFileName" Type="varchar" Nullable="false" MaxLength="150" />
+          <Property Name="FileSize" Type="ubigint" Nullable="false" />
+          <Property Name="FileSizeAfterRedundancy" Type="ubigint" Nullable="false" />
+          <Property Name="CreationDateTime" Type="datetime" Nullable="false" />
+          <Property Name="RedundancyStatus" Type="uint" Nullable="false" />
+          <Property Name="RedundancyFileName" Type="varchar" Nullable="false" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="mebs_mixedcategory">
+          <Key>
+            <PropertyRef Name="IdMixedCategory" />
+          </Key>
+          <Property Name="IdMixedCategory" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdParentCategory" Type="int" />
+          <Property Name="IdChildCategory" Type="int" />
+          <Property Name="Orden" Type="int" />
+          <Property Name="IsDefault" Type="bit" />
+          <Property Name="DateCreation" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_resource">
+          <Key>
+            <PropertyRef Name="IdResource" />
+          </Key>
+          <Property Name="IdResource" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ResourceName" Type="varchar" MaxLength="250" />
+          <Property Name="ResourceDescription" Type="text" />
+        </EntityType>
+        <EntityType Name="mebs_resource_language_mapping">
+          <Key>
+            <PropertyRef Name="IdResourceLanguage" />
+          </Key>
+          <Property Name="IdResourceLanguage" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdResource" Type="int" Nullable="false" />
+          <Property Name="IdLanguage" Type="int" Nullable="false" />
+          <Property Name="Value" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="mebs_roles">
+          <Key>
+            <PropertyRef Name="IdRole" />
+          </Key>
+          <Property Name="IdRole" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="mebs_schedule">
+          <Key>
+            <PropertyRef Name="IdSchedule" />
+          </Key>
+          <Property Name="IdSchedule" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="int" Nullable="false" />
+          <Property Name="EventId" Type="varchar" MaxLength="255" />
+          <Property Name="ContentID" Type="int" />
+          <Property Name="Date_Schedule" Type="datetime" />
+          <Property Name="Estimated_Start" Type="datetime" />
+          <Property Name="Estimated_Stop" Type="datetime" />
+          <Property Name="Exact_Start" Type="datetime" />
+          <Property Name="Exact_Stop" Type="datetime" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="Status" Type="int" />
+          <Property Name="Poster_Status" Type="int" />
+          <Property Name="Poster_DateSent" Type="datetime" />
+          <Property Name="Poster_SentTries" Type="tinyint" />
+          <Property Name="Trigger_Type" Type="tinyint" />
+          <Property Name="IsDeleted" Type="int" />
+        </EntityType>
+        <EntityType Name="mebs_session">
+          <Key>
+            <PropertyRef Name="SessionId" />
+          </Key>
+          <Property Name="SessionId" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="UserGuid" Type="varchar" MaxLength="255" />
+          <Property Name="LastAccess" Type="datetime" />
+          <Property Name="IsExpired" Type="bool" />
+        </EntityType>
+        <EntityType Name="mebs_settings">
+          <Key>
+            <PropertyRef Name="IdSetting" />
+          </Key>
+          <Property Name="IdSetting" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SettingName" Type="varchar" MaxLength="200" />
+          <Property Name="SettingValue" Type="varchar" MaxLength="200" />
+          <Property Name="Description" Type="text" />
+          <Property Name="Visibility" Type="varchar" Nullable="false" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="mebs_useractivity">
+          <Key>
+            <PropertyRef Name="ActivityLogID" />
+          </Key>
+          <Property Name="ActivityLogID" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="Activity" Type="varchar" MaxLength="255" />
+          <Property Name="PageURL" Type="varchar" MaxLength="255" />
+          <Property Name="ActivityDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="mebs_userdetails">
+          <Key>
+            <PropertyRef Name="UserDetailsID" />
+          </Key>
+          <Property Name="UserDetailsID" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="Gender" Type="varchar" MaxLength="255" />
+          <Property Name="FirstName" Type="varchar" MaxLength="255" />
+          <Property Name="LastName" Type="varchar" MaxLength="255" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+          <Property Name="RegistrationDate" Type="timestamp" Nullable="false" Precision="0" />
+          <Property Name="StreetAddress" Type="varchar" MaxLength="255" />
+          <Property Name="StreetAddress2" Type="varchar" MaxLength="255" />
+          <Property Name="PostalCode" Type="varchar" MaxLength="255" />
+          <Property Name="City" Type="varchar" MaxLength="255" />
+          <Property Name="Country" Type="varchar" MaxLength="255" />
+          <Property Name="Phone" Type="varchar" MaxLength="255" />
+          <Property Name="Mobile" Type="varchar" MaxLength="255" />
+          <Property Name="DateOfBirth" Type="datetime" />
+          <Property Name="Picture" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="mebs_usersinroles">
+          <Key>
+            <PropertyRef Name="IdUserRole" />
+          </Key>
+          <Property Name="IdUserRole" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="varchar" MaxLength="255" />
+          <Property Name="RoleName" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="mebs_videoitem">
+          <Key>
+            <PropertyRef Name="IdVideoItem" />
+          </Key>
+          <Property Name="IdVideoItem" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="int" Nullable="false" />
+          <Property Name="ItemValue" Type="varchar" MaxLength="100" />
+          <Property Name="Start_tc" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_IdCategory1">
+          <End Role="mebs_category" Type="sa_mebsModel.Store.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_category_language_mapping" Type="sa_mebsModel.Store.mebs_category_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_category_language_mapping">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdCategoryAss">
+          <End Role="mebs_category" Type="sa_mebsModel.Store.mebs_category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta_category_mapping" Type="sa_mebsModel.Store.mebs_ingesta_category_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_category_mapping">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChannel">
+          <End Role="mebs_channel" Type="sa_mebsModel.Store.mebs_channel" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_channel">
+              <PropertyRef Name="IdChannel" />
+            </Principal>
+            <Dependent Role="mebs_ingesta">
+              <PropertyRef Name="IdChannel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChannelAss">
+          <End Role="mebs_channel" Type="sa_mebsModel.Store.mebs_channel" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_channeltuning" Type="sa_mebsModel.Store.mebs_channeltuning" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_channel">
+              <PropertyRef Name="IdChannel" />
+            </Principal>
+            <Dependent Role="mebs_channeltuning">
+              <PropertyRef Name="IdChannel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChildCategoria">
+          <End Role="mebs_category" Type="sa_mebsModel.Store.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_mixedcategory" Type="sa_mebsModel.Store.mebs_mixedcategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_mixedcategory">
+              <PropertyRef Name="IdChildCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdIngestaAss">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta_category_mapping" Type="sa_mebsModel.Store.mebs_ingesta_category_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_category_mapping">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLanguage">
+          <End Role="mebs_language" Type="sa_mebsModel.Store.mebs_language" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_category_language_mapping" Type="sa_mebsModel.Store.mebs_category_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_language">
+              <PropertyRef Name="IdLanguage" />
+            </Principal>
+            <Dependent Role="mebs_category_language_mapping">
+              <PropertyRef Name="IdLanguage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLanguage1">
+          <End Role="mebs_language" Type="sa_mebsModel.Store.mebs_language" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_resource_language_mapping" Type="sa_mebsModel.Store.mebs_resource_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_language">
+              <PropertyRef Name="IdLanguage" />
+            </Principal>
+            <Dependent Role="mebs_resource_language_mapping">
+              <PropertyRef Name="IdLanguage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLogType">
+          <End Role="mebs_logtype" Type="sa_mebsModel.Store.mebs_logtype" Multiplicity="1" />
+          <End Role="mebs_log" Type="sa_mebsModel.Store.mebs_log" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_logtype">
+              <PropertyRef Name="IdLogType" />
+            </Principal>
+            <Dependent Role="mebs_log">
+              <PropertyRef Name="IdLogType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdParentCategoria">
+          <End Role="mebs_category" Type="sa_mebsModel.Store.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_mixedcategory" Type="sa_mebsModel.Store.mebs_mixedcategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_mixedcategory">
+              <PropertyRef Name="IdParentCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdResource">
+          <End Role="mebs_resource" Type="sa_mebsModel.Store.mebs_resource" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_resource_language_mapping" Type="sa_mebsModel.Store.mebs_resource_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_resource">
+              <PropertyRef Name="IdResource" />
+            </Principal>
+            <Dependent Role="mebs_resource_language_mapping">
+              <PropertyRef Name="IdResource" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingestadetails" Type="sa_mebsModel.Store.mebs_ingestadetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingestadetails">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta_Advertisement">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="1" />
+          <End Role="mebs_ingesta_advertisement_mapping" Type="sa_mebsModel.Store.mebs_ingesta_advertisement_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_advertisement_mapping">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta_VideoItem">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_videoitem" Type="sa_mebsModel.Store.mebs_videoitem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_videoitem">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IngestaSchedule">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.Store.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_schedule" Type="sa_mebsModel.Store.mebs_schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_schedule">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Schedule_Advertisement">
+          <End Role="mebs_schedule" Type="sa_mebsModel.Store.mebs_schedule" Multiplicity="1" />
+          <End Role="mebs_ingesta_advertisement_mapping" Type="sa_mebsModel.Store.mebs_ingesta_advertisement_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_schedule">
+              <PropertyRef Name="IdSchedule" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_advertisement_mapping">
+              <PropertyRef Name="IdSchedule" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="session_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.Store.mebs_login" Multiplicity="1" />
+          <End Role="mebs_session" Type="sa_mebsModel.Store.mebs_session" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_session">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="useractivity_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.Store.mebs_login" Multiplicity="0..1" />
+          <End Role="mebs_useractivity" Type="sa_mebsModel.Store.mebs_useractivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_useractivity">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="userdetails_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.Store.mebs_login" Multiplicity="0..1" />
+          <End Role="mebs_userdetails" Type="sa_mebsModel.Store.mebs_userdetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_userdetails">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="sa_mebsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="mebsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="mebs_category" EntityType="sa_mebsModel.mebs_category" />
+          <EntitySet Name="mebs_category_language_mapping" EntityType="sa_mebsModel.mebs_category_language_mapping" />
+          <EntitySet Name="mebs_channel" EntityType="sa_mebsModel.mebs_channel" />
+          <EntitySet Name="mebs_channeltuning" EntityType="sa_mebsModel.mebs_channeltuning" />
+          <EntitySet Name="mebs_encapsulator" EntityType="sa_mebsModel.mebs_encapsulator" />
+          <EntitySet Name="mebs_ingesta" EntityType="sa_mebsModel.mebs_ingesta" />
+          <EntitySet Name="mebs_ingesta_advertisement_mapping" EntityType="sa_mebsModel.mebs_ingesta_advertisement_mapping" />
+          <EntitySet Name="mebs_ingesta_category_mapping" EntityType="sa_mebsModel.mebs_ingesta_category_mapping" />
+          <EntitySet Name="mebs_ingestadetails" EntityType="sa_mebsModel.mebs_ingestadetails" />
+          <EntitySet Name="mebs_language" EntityType="sa_mebsModel.mebs_language" />
+          <EntitySet Name="mebs_log" EntityType="sa_mebsModel.mebs_log" />
+          <EntitySet Name="mebs_login" EntityType="sa_mebsModel.mebs_login" />
+          <EntitySet Name="mebs_logtype" EntityType="sa_mebsModel.mebs_logtype" />
+          <EntitySet Name="mebs_mediafile" EntityType="sa_mebsModel.mebs_mediafile" />
+          <EntitySet Name="mebs_mixedcategory" EntityType="sa_mebsModel.mebs_mixedcategory" />
+          <EntitySet Name="mebs_resource" EntityType="sa_mebsModel.mebs_resource" />
+          <EntitySet Name="mebs_resource_language_mapping" EntityType="sa_mebsModel.mebs_resource_language_mapping" />
+          <EntitySet Name="mebs_roles" EntityType="sa_mebsModel.mebs_roles" />
+          <EntitySet Name="mebs_schedule" EntityType="sa_mebsModel.mebs_schedule" />
+          <EntitySet Name="mebs_session" EntityType="sa_mebsModel.mebs_session" />
+          <EntitySet Name="mebs_settings" EntityType="sa_mebsModel.mebs_settings" />
+          <EntitySet Name="mebs_useractivity" EntityType="sa_mebsModel.mebs_useractivity" />
+          <EntitySet Name="mebs_userdetails" EntityType="sa_mebsModel.mebs_userdetails" />
+          <EntitySet Name="mebs_usersinroles" EntityType="sa_mebsModel.mebs_usersinroles" />
+          <EntitySet Name="mebs_videoitem" EntityType="sa_mebsModel.mebs_videoitem" />
+          <AssociationSet Name="FK_IdCategory1" Association="sa_mebsModel.FK_IdCategory1">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_category_language_mapping" EntitySet="mebs_category_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdCategoryAss" Association="sa_mebsModel.FK_IdCategoryAss">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_ingesta_category_mapping" EntitySet="mebs_ingesta_category_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChildCategoria" Association="sa_mebsModel.FK_IdChildCategoria">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_mixedcategory" EntitySet="mebs_mixedcategory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdParentCategoria" Association="sa_mebsModel.FK_IdParentCategoria">
+            <End Role="mebs_category" EntitySet="mebs_category" />
+            <End Role="mebs_mixedcategory" EntitySet="mebs_mixedcategory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLanguage" Association="sa_mebsModel.FK_IdLanguage">
+            <End Role="mebs_language" EntitySet="mebs_language" />
+            <End Role="mebs_category_language_mapping" EntitySet="mebs_category_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChannel" Association="sa_mebsModel.FK_IdChannel">
+            <End Role="mebs_channel" EntitySet="mebs_channel" />
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdChannelAss" Association="sa_mebsModel.FK_IdChannelAss">
+            <End Role="mebs_channel" EntitySet="mebs_channel" />
+            <End Role="mebs_channeltuning" EntitySet="mebs_channeltuning" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdIngestaAss" Association="sa_mebsModel.FK_IdIngestaAss">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingesta_category_mapping" EntitySet="mebs_ingesta_category_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta" Association="sa_mebsModel.FK_Ingesta">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingestadetails" EntitySet="mebs_ingestadetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta_Advertisement" Association="sa_mebsModel.FK_Ingesta_Advertisement">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_ingesta_advertisement_mapping" EntitySet="mebs_ingesta_advertisement_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ingesta_VideoItem" Association="sa_mebsModel.FK_Ingesta_VideoItem">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_videoitem" EntitySet="mebs_videoitem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IngestaSchedule" Association="sa_mebsModel.FK_IngestaSchedule">
+            <End Role="mebs_ingesta" EntitySet="mebs_ingesta" />
+            <End Role="mebs_schedule" EntitySet="mebs_schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Schedule_Advertisement" Association="sa_mebsModel.FK_Schedule_Advertisement">
+            <End Role="mebs_schedule" EntitySet="mebs_schedule" />
+            <End Role="mebs_ingesta_advertisement_mapping" EntitySet="mebs_ingesta_advertisement_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLanguage1" Association="sa_mebsModel.FK_IdLanguage1">
+            <End Role="mebs_language" EntitySet="mebs_language" />
+            <End Role="mebs_resource_language_mapping" EntitySet="mebs_resource_language_mapping" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdLogType" Association="sa_mebsModel.FK_IdLogType">
+            <End Role="mebs_logtype" EntitySet="mebs_logtype" />
+            <End Role="mebs_log" EntitySet="mebs_log" />
+          </AssociationSet>
+          <AssociationSet Name="session_FK_1" Association="sa_mebsModel.session_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_session" EntitySet="mebs_session" />
+          </AssociationSet>
+          <AssociationSet Name="useractivity_FK_1" Association="sa_mebsModel.useractivity_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_useractivity" EntitySet="mebs_useractivity" />
+          </AssociationSet>
+          <AssociationSet Name="userdetails_FK_1" Association="sa_mebsModel.userdetails_FK_1">
+            <End Role="mebs_login" EntitySet="mebs_login" />
+            <End Role="mebs_userdetails" EntitySet="mebs_userdetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IdResource" Association="sa_mebsModel.FK_IdResource">
+            <End Role="mebs_resource" EntitySet="mebs_resource" />
+            <End Role="mebs_resource_language_mapping" EntitySet="mebs_resource_language_mapping" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="mebs_category">
+          <Key>
+            <PropertyRef Name="IdCategory" />
+          </Key>
+          <Property Name="IdCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="String" />
+          <Property Name="Visibility" Type="String" />
+          <Property Name="ParentID" Type="Int32" />
+          <Property Name="Orden" Type="Int32" />
+          <Property Name="Default" Type="Int32" />
+          <Property Name="MediasetLCN" Type="Int32" />
+          <Property Name="StandardLCN" Type="Int32" />
+          <Property Name="IsUnclass" Type="Boolean" />
+          <Property Name="IsMixed" Type="Boolean" />
+          <Property Name="IsPublished" Type="Boolean" />
+          <Property Name="DateCreation" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="mebs_category_language_mapping" Relationship="sa_mebsModel.FK_IdCategory1" FromRole="mebs_category" ToRole="mebs_category_language_mapping" />
+          <NavigationProperty Name="mebs_ingesta_category_mapping" Relationship="sa_mebsModel.FK_IdCategoryAss" FromRole="mebs_category" ToRole="mebs_ingesta_category_mapping" />
+          <NavigationProperty Name="mebs_mixedcategory" Relationship="sa_mebsModel.FK_IdChildCategoria" FromRole="mebs_category" ToRole="mebs_mixedcategory" />
+          <NavigationProperty Name="mebs_mixedcategory1" Relationship="sa_mebsModel.FK_IdParentCategoria" FromRole="mebs_category" ToRole="mebs_mixedcategory" />
+        </EntityType>
+        <EntityType Name="mebs_category_language_mapping">
+          <Key>
+            <PropertyRef Name="IdCategoryDetails" />
+          </Key>
+          <Property Name="IdCategoryDetails" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdCategory" Type="Int32" />
+          <Property Name="IdLanguage" Type="Int32" />
+          <Property Name="Title" Type="String" />
+          <Property Name="VirtualChannelDisignation" Type="String" />
+          <NavigationProperty Name="mebs_category" Relationship="sa_mebsModel.FK_IdCategory1" FromRole="mebs_category_language_mapping" ToRole="mebs_category" />
+          <NavigationProperty Name="mebs_language" Relationship="sa_mebsModel.FK_IdLanguage" FromRole="mebs_category_language_mapping" ToRole="mebs_language" />
+        </EntityType>
+        <EntityType Name="mebs_channel">
+          <Key>
+            <PropertyRef Name="IdChannel" />
+          </Key>
+          <Property Name="IdChannel" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Bus" Type="String" />
+          <Property Name="LongName" Type="String" />
+          <Property Name="ShortName" Type="String" />
+          <Property Name="ChannelType" Type="SByte" />
+          <Property Name="ChannelKey" Type="String" />
+          <Property Name="LogoFileName" Type="String" />
+          <Property Name="Logo" Type="Binary" />
+          <Property Name="DateCreation" Type="DateTime" Nullable="false" />
+          <Property Name="XmlFileName" Type="String" />
+          <Property Name="Enabled" Type="Boolean" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_IdChannel" FromRole="mebs_channel" ToRole="mebs_ingesta" />
+          <NavigationProperty Name="mebs_channeltuning" Relationship="sa_mebsModel.FK_IdChannelAss" FromRole="mebs_channel" ToRole="mebs_channeltuning" />
+        </EntityType>
+        <EntityType Name="mebs_channeltuning">
+          <Key>
+            <PropertyRef Name="IdChannelTuning" />
+          </Key>
+          <Property Name="IdChannelTuning" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdChannel" Type="Int32" Nullable="false" />
+          <Property Name="ServiceID" Type="Int64" Nullable="false" />
+          <Property Name="TransportStreamID" Type="Int64" Nullable="false" />
+          <Property Name="OriginalNetworkID" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="mebs_channel" Relationship="sa_mebsModel.FK_IdChannelAss" FromRole="mebs_channeltuning" ToRole="mebs_channel" />
+        </EntityType>
+        <EntityType Name="mebs_encapsulator">
+          <Key>
+            <PropertyRef Name="IdEncapsulator" />
+          </Key>
+          <Property Name="IdEncapsulator" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" />
+          <Property Name="Type" Type="String" />
+          <Property Name="Status" Type="Int64" />
+          <Property Name="IsPublished" Type="Boolean" />
+          <Property Name="IpAddress" Type="String" />
+          <Property Name="MultiInstancesNum" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta">
+          <Key>
+            <PropertyRef Name="IdIngesta" />
+          </Key>
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EventId" Type="String" />
+          <Property Name="Code_Package" Type="String" />
+          <Property Name="Type" Type="SByte" />
+          <Property Name="IdChannel" Type="Int32" Nullable="false" />
+          <Property Name="Date_Creation" Type="DateTime" />
+          <Property Name="Estimated_Start" Type="DateTime" />
+          <Property Name="Estimated_Stop" Type="DateTime" />
+          <Property Name="Expiration_time" Type="DateTime" />
+          <Property Name="Immortality_time" Type="DateTime" />
+          <Property Name="Validity_time" Type="Int32" Nullable="false" />
+          <Property Name="AvailableAfter_time" Type="Int32" Nullable="false" />
+          <Property Name="Title" Type="String" />
+          <Property Name="ParentalRating" Type="String" />
+          <Property Name="PosterFileName" Type="String" />
+          <Property Name="Last_Update" Type="DateTime" />
+          <Property Name="IsExpired" Type="Boolean" Nullable="false" />
+          <Property Name="Poster" Type="Binary" />
+          <Property Name="Duration" Type="String" />
+          <Property Name="IsPublished" Type="Boolean" />
+          <Property Name="XmlFileName" Type="String" />
+          <Property Name="MinLifeAfterFirstAccess" Type="Int32" />
+          <Property Name="LifeAfterFirstAccess" Type="Int32" />
+          <Property Name="MinLifeAfterActivation" Type="Int32" />
+          <Property Name="LifeAfterActivation" Type="Int32" />
+          <Property Name="DisableAccess" Type="Boolean" />
+          <Property Name="ActiveSince" Type="String" />
+          <Property Name="ActiveDuring" Type="Int32" />
+          <Property Name="ActiveTimeAfterFirstAccess" Type="Int32" />
+          <Property Name="MinActiveTimeAfterFirstAccess" Type="Int32" />
+          <Property Name="DrmProtected" Type="Boolean" />
+          <Property Name="CopyControl" Type="String" />
+          <Property Name="MaxAccesses" Type="Int32" />
+          <Property Name="Hidden" Type="Boolean" />
+          <Property Name="PublishAfter" Type="Int32" />
+          <Property Name="SelfCommercial" Type="Int32" />
+          <Property Name="MediaFileNameAfterRedundancy" Type="String" Nullable="false" />
+          <Property Name="MediaFileSizeAfterRedundancy" Type="Decimal" Nullable="false" />
+          <Property Name="OriginalFileName" Type="String" />
+          <NavigationProperty Name="mebs_channel" Relationship="sa_mebsModel.FK_IdChannel" FromRole="mebs_ingesta" ToRole="mebs_channel" />
+          <NavigationProperty Name="mebs_ingesta_category_mapping" Relationship="sa_mebsModel.FK_IdIngestaAss" FromRole="mebs_ingesta" ToRole="mebs_ingesta_category_mapping" />
+          <NavigationProperty Name="mebs_ingestadetails" Relationship="sa_mebsModel.FK_Ingesta" FromRole="mebs_ingesta" ToRole="mebs_ingestadetails" />
+          <NavigationProperty Name="mebs_ingesta_advertisement_mapping" Relationship="sa_mebsModel.FK_Ingesta_Advertisement" FromRole="mebs_ingesta" ToRole="mebs_ingesta_advertisement_mapping" />
+          <NavigationProperty Name="mebs_videoitem" Relationship="sa_mebsModel.FK_Ingesta_VideoItem" FromRole="mebs_ingesta" ToRole="mebs_videoitem" />
+          <NavigationProperty Name="mebs_schedule" Relationship="sa_mebsModel.FK_IngestaSchedule" FromRole="mebs_ingesta" ToRole="mebs_schedule" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta_advertisement_mapping">
+          <Key>
+            <PropertyRef Name="IdIngestaAdvertisement" />
+          </Key>
+          <Property Name="IdIngestaAdvertisement" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" />
+          <Property Name="IdSchedule" Type="Int32" Nullable="false" />
+          <Property Name="ActionName" Type="String" />
+          <Property Name="StartTimePoint" Type="String" />
+          <Property Name="StopTimePoint" Type="String" />
+          <Property Name="MaxFwdSpeed" Type="Int32" />
+          <Property Name="MaxRwdSpeed" Type="Int32" />
+          <Property Name="CanSkip" Type="Boolean" />
+          <Property Name="DateCreation" Type="DateTime" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_Ingesta_Advertisement" FromRole="mebs_ingesta_advertisement_mapping" ToRole="mebs_ingesta" />
+          <NavigationProperty Name="mebs_schedule" Relationship="sa_mebsModel.FK_Schedule_Advertisement" FromRole="mebs_ingesta_advertisement_mapping" ToRole="mebs_schedule" />
+        </EntityType>
+        <EntityType Name="mebs_ingesta_category_mapping">
+          <Key>
+            <PropertyRef Name="IdIngestaCategory" />
+          </Key>
+          <Property Name="IdIngestaCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" />
+          <Property Name="IdCategory" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="mebs_category" Relationship="sa_mebsModel.FK_IdCategoryAss" FromRole="mebs_ingesta_category_mapping" ToRole="mebs_category" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_IdIngestaAss" FromRole="mebs_ingesta_category_mapping" ToRole="mebs_ingesta" />
+        </EntityType>
+        <EntityType Name="mebs_ingestadetails">
+          <Key>
+            <PropertyRef Name="IdIngestaDetails" />
+          </Key>
+          <Property Name="IdIngestaDetails" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" />
+          <Property Name="DetailsName" Type="String" />
+          <Property Name="DetailsValue" Type="String" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_Ingesta" FromRole="mebs_ingestadetails" ToRole="mebs_ingesta" />
+        </EntityType>
+        <EntityType Name="mebs_language">
+          <Key>
+            <PropertyRef Name="IdLanguage" />
+          </Key>
+          <Property Name="IdLanguage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" />
+          <Property Name="LanguageCulture" Type="String" />
+          <Property Name="ISOCode" Type="String" />
+          <Property Name="IsPublished" Type="Boolean" />
+          <Property Name="DateCreation" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="mebs_category_language_mapping" Relationship="sa_mebsModel.FK_IdLanguage" FromRole="mebs_language" ToRole="mebs_category_language_mapping" />
+          <NavigationProperty Name="mebs_resource_language_mapping" Relationship="sa_mebsModel.FK_IdLanguage1" FromRole="mebs_language" ToRole="mebs_resource_language_mapping" />
+        </EntityType>
+        <EntityType Name="mebs_log">
+          <Key>
+            <PropertyRef Name="Idlog" />
+          </Key>
+          <Property Name="Idlog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdLogType" Type="Int32" Nullable="false" />
+          <Property Name="Message" Type="String" />
+          <Property Name="Exception" Type="String" />
+          <Property Name="DateCreation" Type="DateTime" Nullable="false" />
+          <Property Name="IpAdress" Type="String" />
+          <NavigationProperty Name="mebs_logtype" Relationship="sa_mebsModel.FK_IdLogType" FromRole="mebs_log" ToRole="mebs_logtype" />
+        </EntityType>
+        <EntityType Name="mebs_login">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserGUID" Type="String" />
+          <Property Name="Login" Type="String" />
+          <Property Name="Password" Type="String" />
+          <Property Name="PasswordQuestion" Type="String" />
+          <Property Name="PasswordAnswer" Type="String" />
+          <Property Name="Email" Type="String" />
+          <Property Name="IsActive" Type="Boolean" />
+          <Property Name="LastActivityDate" Type="DateTime" />
+          <Property Name="LastLoginDate" Type="DateTime" />
+          <NavigationProperty Name="mebs_session" Relationship="sa_mebsModel.session_FK_1" FromRole="mebs_login" ToRole="mebs_session" />
+          <NavigationProperty Name="mebs_useractivity" Relationship="sa_mebsModel.useractivity_FK_1" FromRole="mebs_login" ToRole="mebs_useractivity" />
+          <NavigationProperty Name="mebs_userdetails" Relationship="sa_mebsModel.userdetails_FK_1" FromRole="mebs_login" ToRole="mebs_userdetails" />
+        </EntityType>
+        <EntityType Name="mebs_logtype">
+          <Key>
+            <PropertyRef Name="IdLogType" />
+          </Key>
+          <Property Name="IdLogType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicationName" Type="String" />
+          <NavigationProperty Name="mebs_log" Relationship="sa_mebsModel.FK_IdLogType" FromRole="mebs_logtype" ToRole="mebs_log" />
+        </EntityType>
+        <EntityType Name="mebs_mediafile">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GUID" Type="String" Nullable="false" />
+          <Property Name="OriginalFileName" Type="String" Nullable="false" />
+          <Property Name="FileSize" Type="Decimal" Nullable="false" />
+          <Property Name="FileSizeAfterRedundancy" Type="Decimal" Nullable="false" />
+          <Property Name="CreationDateTime" Type="DateTime" Nullable="false" />
+          <Property Name="RedundancyStatus" Type="Int64" Nullable="false" />
+          <Property Name="RedundancyFileName" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_mixedcategory">
+          <Key>
+            <PropertyRef Name="IdMixedCategory" />
+          </Key>
+          <Property Name="IdMixedCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdParentCategory" Type="Int32" />
+          <Property Name="IdChildCategory" Type="Int32" />
+          <Property Name="Orden" Type="Int32" />
+          <Property Name="IsDefault" Type="Boolean" />
+          <Property Name="DateCreation" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="mebs_category" Relationship="sa_mebsModel.FK_IdChildCategoria" FromRole="mebs_mixedcategory" ToRole="mebs_category" />
+          <NavigationProperty Name="mebs_category1" Relationship="sa_mebsModel.FK_IdParentCategoria" FromRole="mebs_mixedcategory" ToRole="mebs_category" />
+        </EntityType>
+        <EntityType Name="mebs_resource">
+          <Key>
+            <PropertyRef Name="IdResource" />
+          </Key>
+          <Property Name="IdResource" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ResourceName" Type="String" />
+          <Property Name="ResourceDescription" Type="String" />
+          <NavigationProperty Name="mebs_resource_language_mapping" Relationship="sa_mebsModel.FK_IdResource" FromRole="mebs_resource" ToRole="mebs_resource_language_mapping" />
+        </EntityType>
+        <EntityType Name="mebs_resource_language_mapping">
+          <Key>
+            <PropertyRef Name="IdResourceLanguage" />
+          </Key>
+          <Property Name="IdResourceLanguage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdResource" Type="Int32" Nullable="false" />
+          <Property Name="IdLanguage" Type="Int32" Nullable="false" />
+          <Property Name="Value" Type="String" />
+          <NavigationProperty Name="mebs_language" Relationship="sa_mebsModel.FK_IdLanguage1" FromRole="mebs_resource_language_mapping" ToRole="mebs_language" />
+          <NavigationProperty Name="mebs_resource" Relationship="sa_mebsModel.FK_IdResource" FromRole="mebs_resource_language_mapping" ToRole="mebs_resource" />
+        </EntityType>
+        <EntityType Name="mebs_roles">
+          <Key>
+            <PropertyRef Name="IdRole" />
+          </Key>
+          <Property Name="IdRole" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" />
+        </EntityType>
+        <EntityType Name="mebs_schedule">
+          <Key>
+            <PropertyRef Name="IdSchedule" />
+          </Key>
+          <Property Name="IdSchedule" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" />
+          <Property Name="EventId" Type="String" />
+          <Property Name="ContentID" Type="Int32" />
+          <Property Name="Date_Schedule" Type="DateTime" />
+          <Property Name="Estimated_Start" Type="DateTime" />
+          <Property Name="Estimated_Stop" Type="DateTime" />
+          <Property Name="Exact_Start" Type="DateTime" />
+          <Property Name="Exact_Stop" Type="DateTime" />
+          <Property Name="IsActive" Type="Boolean" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="Poster_Status" Type="Int32" />
+          <Property Name="Poster_DateSent" Type="DateTime" />
+          <Property Name="Poster_SentTries" Type="SByte" />
+          <Property Name="Trigger_Type" Type="SByte" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_IngestaSchedule" FromRole="mebs_schedule" ToRole="mebs_ingesta" />
+          <NavigationProperty Name="mebs_ingesta_advertisement_mapping" Relationship="sa_mebsModel.FK_Schedule_Advertisement" FromRole="mebs_schedule" ToRole="mebs_ingesta_advertisement_mapping" />
+        </EntityType>
+        <EntityType Name="mebs_session">
+          <Key>
+            <PropertyRef Name="SessionId" />
+          </Key>
+          <Property Name="SessionId" Type="String" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="UserGuid" Type="String" />
+          <Property Name="LastAccess" Type="DateTime" />
+          <Property Name="IsExpired" Type="Boolean" />
+          <NavigationProperty Name="mebs_login" Relationship="sa_mebsModel.session_FK_1" FromRole="mebs_session" ToRole="mebs_login" />
+        </EntityType>
+        <EntityType Name="mebs_settings">
+          <Key>
+            <PropertyRef Name="IdSetting" />
+          </Key>
+          <Property Name="IdSetting" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SettingName" Type="String" />
+          <Property Name="SettingValue" Type="String" />
+          <Property Name="Description" Type="String" />
+          <Property Name="Visibility" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="mebs_useractivity">
+          <Key>
+            <PropertyRef Name="ActivityLogID" />
+          </Key>
+          <Property Name="ActivityLogID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="Activity" Type="String" />
+          <Property Name="PageURL" Type="String" />
+          <Property Name="ActivityDate" Type="DateTime" />
+          <NavigationProperty Name="mebs_login" Relationship="sa_mebsModel.useractivity_FK_1" FromRole="mebs_useractivity" ToRole="mebs_login" />
+        </EntityType>
+        <EntityType Name="mebs_userdetails">
+          <Key>
+            <PropertyRef Name="UserDetailsID" />
+          </Key>
+          <Property Name="UserDetailsID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="Gender" Type="String" />
+          <Property Name="FirstName" Type="String" />
+          <Property Name="LastName" Type="String" />
+          <Property Name="Comment" Type="String" />
+          <Property Name="RegistrationDate" Type="DateTime" Nullable="false" />
+          <Property Name="StreetAddress" Type="String" />
+          <Property Name="StreetAddress2" Type="String" />
+          <Property Name="PostalCode" Type="String" />
+          <Property Name="City" Type="String" />
+          <Property Name="Country" Type="String" />
+          <Property Name="Phone" Type="String" />
+          <Property Name="Mobile" Type="String" />
+          <Property Name="DateOfBirth" Type="DateTime" />
+          <Property Name="Picture" Type="String" />
+          <NavigationProperty Name="mebs_login" Relationship="sa_mebsModel.userdetails_FK_1" FromRole="mebs_userdetails" ToRole="mebs_login" />
+        </EntityType>
+        <EntityType Name="mebs_usersinroles">
+          <Key>
+            <PropertyRef Name="IdUserRole" />
+          </Key>
+          <Property Name="IdUserRole" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" />
+          <Property Name="RoleName" Type="String" />
+        </EntityType>
+        <EntityType Name="mebs_videoitem">
+          <Key>
+            <PropertyRef Name="IdVideoItem" />
+          </Key>
+          <Property Name="IdVideoItem" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdIngesta" Type="Int32" Nullable="false" />
+          <Property Name="ItemValue" Type="String" />
+          <Property Name="Start_tc" Type="DateTime" />
+          <NavigationProperty Name="mebs_ingesta" Relationship="sa_mebsModel.FK_Ingesta_VideoItem" FromRole="mebs_videoitem" ToRole="mebs_ingesta" />
+        </EntityType>
+        <Association Name="FK_IdCategory1">
+          <End Role="mebs_category" Type="sa_mebsModel.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_category_language_mapping" Type="sa_mebsModel.mebs_category_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_category_language_mapping">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdCategoryAss">
+          <End Role="mebs_category" Type="sa_mebsModel.mebs_category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta_category_mapping" Type="sa_mebsModel.mebs_ingesta_category_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_category_mapping">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChildCategoria">
+          <End Role="mebs_category" Type="sa_mebsModel.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_mixedcategory" Type="sa_mebsModel.mebs_mixedcategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_mixedcategory">
+              <PropertyRef Name="IdChildCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdParentCategoria">
+          <End Role="mebs_category" Type="sa_mebsModel.mebs_category" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_mixedcategory" Type="sa_mebsModel.mebs_mixedcategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_category">
+              <PropertyRef Name="IdCategory" />
+            </Principal>
+            <Dependent Role="mebs_mixedcategory">
+              <PropertyRef Name="IdParentCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLanguage">
+          <End Role="mebs_language" Type="sa_mebsModel.mebs_language" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_category_language_mapping" Type="sa_mebsModel.mebs_category_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_language">
+              <PropertyRef Name="IdLanguage" />
+            </Principal>
+            <Dependent Role="mebs_category_language_mapping">
+              <PropertyRef Name="IdLanguage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChannel">
+          <End Role="mebs_channel" Type="sa_mebsModel.mebs_channel" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_channel">
+              <PropertyRef Name="IdChannel" />
+            </Principal>
+            <Dependent Role="mebs_ingesta">
+              <PropertyRef Name="IdChannel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdChannelAss">
+          <End Role="mebs_channel" Type="sa_mebsModel.mebs_channel" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_channeltuning" Type="sa_mebsModel.mebs_channeltuning" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_channel">
+              <PropertyRef Name="IdChannel" />
+            </Principal>
+            <Dependent Role="mebs_channeltuning">
+              <PropertyRef Name="IdChannel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdIngestaAss">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingesta_category_mapping" Type="sa_mebsModel.mebs_ingesta_category_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_category_mapping">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_ingestadetails" Type="sa_mebsModel.mebs_ingestadetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingestadetails">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta_Advertisement">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="1" />
+          <End Role="mebs_ingesta_advertisement_mapping" Type="sa_mebsModel.mebs_ingesta_advertisement_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_advertisement_mapping">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ingesta_VideoItem">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_videoitem" Type="sa_mebsModel.mebs_videoitem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_videoitem">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IngestaSchedule">
+          <End Role="mebs_ingesta" Type="sa_mebsModel.mebs_ingesta" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_schedule" Type="sa_mebsModel.mebs_schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_ingesta">
+              <PropertyRef Name="IdIngesta" />
+            </Principal>
+            <Dependent Role="mebs_schedule">
+              <PropertyRef Name="IdIngesta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Schedule_Advertisement">
+          <End Role="mebs_schedule" Type="sa_mebsModel.mebs_schedule" Multiplicity="1" />
+          <End Role="mebs_ingesta_advertisement_mapping" Type="sa_mebsModel.mebs_ingesta_advertisement_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_schedule">
+              <PropertyRef Name="IdSchedule" />
+            </Principal>
+            <Dependent Role="mebs_ingesta_advertisement_mapping">
+              <PropertyRef Name="IdSchedule" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLanguage1">
+          <End Role="mebs_language" Type="sa_mebsModel.mebs_language" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_resource_language_mapping" Type="sa_mebsModel.mebs_resource_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_language">
+              <PropertyRef Name="IdLanguage" />
+            </Principal>
+            <Dependent Role="mebs_resource_language_mapping">
+              <PropertyRef Name="IdLanguage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdLogType">
+          <End Role="mebs_logtype" Type="sa_mebsModel.mebs_logtype" Multiplicity="1" />
+          <End Role="mebs_log" Type="sa_mebsModel.mebs_log" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_logtype">
+              <PropertyRef Name="IdLogType" />
+            </Principal>
+            <Dependent Role="mebs_log">
+              <PropertyRef Name="IdLogType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="session_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.mebs_login" Multiplicity="1" />
+          <End Role="mebs_session" Type="sa_mebsModel.mebs_session" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_session">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="useractivity_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.mebs_login" Multiplicity="0..1" />
+          <End Role="mebs_useractivity" Type="sa_mebsModel.mebs_useractivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_useractivity">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="userdetails_FK_1">
+          <End Role="mebs_login" Type="sa_mebsModel.mebs_login" Multiplicity="0..1" />
+          <End Role="mebs_userdetails" Type="sa_mebsModel.mebs_userdetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_login">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="mebs_userdetails">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IdResource">
+          <End Role="mebs_resource" Type="sa_mebsModel.mebs_resource" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="mebs_resource_language_mapping" Type="sa_mebsModel.mebs_resource_language_mapping" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mebs_resource">
+              <PropertyRef Name="IdResource" />
+            </Principal>
+            <Dependent Role="mebs_resource_language_mapping">
+              <PropertyRef Name="IdResource" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="sa_mebsModelStoreContainer" CdmEntityContainer="mebsEntities">
+          <EntitySetMapping Name="mebs_category">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_category">
+              <MappingFragment StoreEntitySet="mebs_category">
+                <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+                <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+                <ScalarProperty Name="Orden" ColumnName="Orden" />
+                <ScalarProperty Name="Default" ColumnName="Default" />
+                <ScalarProperty Name="MediasetLCN" ColumnName="MediasetLCN" />
+                <ScalarProperty Name="StandardLCN" ColumnName="StandardLCN" />
+                <ScalarProperty Name="IsUnclass" ColumnName="IsUnclass" />
+                <ScalarProperty Name="IsMixed" ColumnName="IsMixed" />
+                <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_category_language_mapping">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_category_language_mapping">
+              <MappingFragment StoreEntitySet="mebs_category_language_mapping">
+                <ScalarProperty Name="IdCategoryDetails" ColumnName="IdCategoryDetails" />
+                <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+                <ScalarProperty Name="IdLanguage" ColumnName="IdLanguage" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="VirtualChannelDisignation" ColumnName="VirtualChannelDisignation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_channel">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_channel">
+              <MappingFragment StoreEntitySet="mebs_channel">
+                <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+                <ScalarProperty Name="Bus" ColumnName="Bus" />
+                <ScalarProperty Name="LongName" ColumnName="LongName" />
+                <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+                <ScalarProperty Name="ChannelKey" ColumnName="ChannelKey" />
+                <ScalarProperty Name="LogoFileName" ColumnName="LogoFileName" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+                <ScalarProperty Name="XmlFileName" ColumnName="XmlFileName" />
+                <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_channeltuning">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_channeltuning">
+              <MappingFragment StoreEntitySet="mebs_channeltuning">
+                <ScalarProperty Name="IdChannelTuning" ColumnName="IdChannelTuning" />
+                <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+                <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+                <ScalarProperty Name="TransportStreamID" ColumnName="TransportStreamID" />
+                <ScalarProperty Name="OriginalNetworkID" ColumnName="OriginalNetworkID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_encapsulator">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_encapsulator">
+              <MappingFragment StoreEntitySet="mebs_encapsulator">
+                <ScalarProperty Name="IdEncapsulator" ColumnName="IdEncapsulator" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+                <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+                <ScalarProperty Name="MultiInstancesNum" ColumnName="MultiInstancesNum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_ingesta">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta">
+              <MappingFragment StoreEntitySet="mebs_ingesta">
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="Code_Package" ColumnName="Code_Package" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+                <ScalarProperty Name="Date_Creation" ColumnName="Date_Creation" />
+                <ScalarProperty Name="Estimated_Start" ColumnName="Estimated_Start" />
+                <ScalarProperty Name="Estimated_Stop" ColumnName="Estimated_Stop" />
+                <ScalarProperty Name="Expiration_time" ColumnName="Expiration_time" />
+                <ScalarProperty Name="Immortality_time" ColumnName="Immortality_time" />
+                <ScalarProperty Name="Validity_time" ColumnName="Validity_time" />
+                <ScalarProperty Name="AvailableAfter_time" ColumnName="AvailableAfter_time" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="ParentalRating" ColumnName="ParentalRating" />
+                <ScalarProperty Name="PosterFileName" ColumnName="PosterFileName" />
+                <ScalarProperty Name="Last_Update" ColumnName="Last_Update" />
+                <ScalarProperty Name="IsExpired" ColumnName="IsExpired" />
+                <ScalarProperty Name="Poster" ColumnName="Poster" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+                <ScalarProperty Name="XmlFileName" ColumnName="XmlFileName" />
+                <ScalarProperty Name="MinLifeAfterFirstAccess" ColumnName="MinLifeAfterFirstAccess" />
+                <ScalarProperty Name="LifeAfterFirstAccess" ColumnName="LifeAfterFirstAccess" />
+                <ScalarProperty Name="MinLifeAfterActivation" ColumnName="MinLifeAfterActivation" />
+                <ScalarProperty Name="LifeAfterActivation" ColumnName="LifeAfterActivation" />
+                <ScalarProperty Name="DisableAccess" ColumnName="DisableAccess" />
+                <ScalarProperty Name="ActiveSince" ColumnName="ActiveSince" />
+                <ScalarProperty Name="ActiveDuring" ColumnName="ActiveDuring" />
+                <ScalarProperty Name="ActiveTimeAfterFirstAccess" ColumnName="ActiveTimeAfterFirstAccess" />
+                <ScalarProperty Name="MinActiveTimeAfterFirstAccess" ColumnName="MinActiveTimeAfterFirstAccess" />
+                <ScalarProperty Name="DrmProtected" ColumnName="DrmProtected" />
+                <ScalarProperty Name="CopyControl" ColumnName="CopyControl" />
+                <ScalarProperty Name="MaxAccesses" ColumnName="MaxAccesses" />
+                <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+                <ScalarProperty Name="PublishAfter" ColumnName="PublishAfter" />
+                <ScalarProperty Name="SelfCommercial" ColumnName="SelfCommercial" />
+                <ScalarProperty Name="MediaFileNameAfterRedundancy" ColumnName="MediaFileNameAfterRedundancy" />
+                <ScalarProperty Name="MediaFileSizeAfterRedundancy" ColumnName="MediaFileSizeAfterRedundancy" />
+                <ScalarProperty Name="OriginalFileName" ColumnName="OriginalFileName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_ingesta_advertisement_mapping">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta_advertisement_mapping">
+              <MappingFragment StoreEntitySet="mebs_ingesta_advertisement_mapping">
+                <ScalarProperty Name="IdIngestaAdvertisement" ColumnName="IdIngestaAdvertisement" />
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="IdSchedule" ColumnName="IdSchedule" />
+                <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+                <ScalarProperty Name="StartTimePoint" ColumnName="StartTimePoint" />
+                <ScalarProperty Name="StopTimePoint" ColumnName="StopTimePoint" />
+                <ScalarProperty Name="MaxFwdSpeed" ColumnName="MaxFwdSpeed" />
+                <ScalarProperty Name="MaxRwdSpeed" ColumnName="MaxRwdSpeed" />
+                <ScalarProperty Name="CanSkip" ColumnName="CanSkip" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_ingesta_category_mapping">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta_category_mapping">
+              <MappingFragment StoreEntitySet="mebs_ingesta_category_mapping">
+                <ScalarProperty Name="IdIngestaCategory" ColumnName="IdIngestaCategory" />
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_ingestadetails">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingestadetails">
+              <MappingFragment StoreEntitySet="mebs_ingestadetails">
+                <ScalarProperty Name="IdIngestaDetails" ColumnName="IdIngestaDetails" />
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="DetailsName" ColumnName="DetailsName" />
+                <ScalarProperty Name="DetailsValue" ColumnName="DetailsValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_language">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_language">
+              <MappingFragment StoreEntitySet="mebs_language">
+                <ScalarProperty Name="IdLanguage" ColumnName="IdLanguage" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="LanguageCulture" ColumnName="LanguageCulture" />
+                <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+                <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_log">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_log">
+              <MappingFragment StoreEntitySet="mebs_log">
+                <ScalarProperty Name="Idlog" ColumnName="Idlog" />
+                <ScalarProperty Name="IdLogType" ColumnName="IdLogType" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="Exception" ColumnName="Exception" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+                <ScalarProperty Name="IpAdress" ColumnName="IpAdress" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_login">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_login">
+              <MappingFragment StoreEntitySet="mebs_login">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="UserGUID" ColumnName="UserGUID" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+                <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+                <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_logtype">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_logtype">
+              <MappingFragment StoreEntitySet="mebs_logtype">
+                <ScalarProperty Name="IdLogType" ColumnName="IdLogType" />
+                <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_mediafile">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_mediafile">
+              <MappingFragment StoreEntitySet="mebs_mediafile">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="GUID" ColumnName="GUID" />
+                <ScalarProperty Name="OriginalFileName" ColumnName="OriginalFileName" />
+                <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+                <ScalarProperty Name="FileSizeAfterRedundancy" ColumnName="FileSizeAfterRedundancy" />
+                <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+                <ScalarProperty Name="RedundancyStatus" ColumnName="RedundancyStatus" />
+                <ScalarProperty Name="RedundancyFileName" ColumnName="RedundancyFileName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_mixedcategory">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_mixedcategory">
+              <MappingFragment StoreEntitySet="mebs_mixedcategory">
+                <ScalarProperty Name="IdMixedCategory" ColumnName="IdMixedCategory" />
+                <ScalarProperty Name="IdParentCategory" ColumnName="IdParentCategory" />
+                <ScalarProperty Name="IdChildCategory" ColumnName="IdChildCategory" />
+                <ScalarProperty Name="Orden" ColumnName="Orden" />
+                <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+                <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_resource">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_resource">
+              <MappingFragment StoreEntitySet="mebs_resource">
+                <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+                <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+                <ScalarProperty Name="ResourceDescription" ColumnName="ResourceDescription" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_resource_language_mapping">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_resource_language_mapping">
+              <MappingFragment StoreEntitySet="mebs_resource_language_mapping">
+                <ScalarProperty Name="IdResourceLanguage" ColumnName="IdResourceLanguage" />
+                <ScalarProperty Name="IdResource" ColumnName="IdResource" />
+                <ScalarProperty Name="IdLanguage" ColumnName="IdLanguage" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_roles">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_roles">
+              <MappingFragment StoreEntitySet="mebs_roles">
+                <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_schedule">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_schedule">
+              <MappingFragment StoreEntitySet="mebs_schedule">
+                <ScalarProperty Name="IdSchedule" ColumnName="IdSchedule" />
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+                <ScalarProperty Name="Date_Schedule" ColumnName="Date_Schedule" />
+                <ScalarProperty Name="Estimated_Start" ColumnName="Estimated_Start" />
+                <ScalarProperty Name="Estimated_Stop" ColumnName="Estimated_Stop" />
+                <ScalarProperty Name="Exact_Start" ColumnName="Exact_Start" />
+                <ScalarProperty Name="Exact_Stop" ColumnName="Exact_Stop" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Poster_Status" ColumnName="Poster_Status" />
+                <ScalarProperty Name="Poster_DateSent" ColumnName="Poster_DateSent" />
+                <ScalarProperty Name="Poster_SentTries" ColumnName="Poster_SentTries" />
+                <ScalarProperty Name="Trigger_Type" ColumnName="Trigger_Type" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_session">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_session">
+              <MappingFragment StoreEntitySet="mebs_session">
+                <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="UserGuid" ColumnName="UserGuid" />
+                <ScalarProperty Name="LastAccess" ColumnName="LastAccess" />
+                <ScalarProperty Name="IsExpired" ColumnName="IsExpired" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_settings">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_settings">
+              <MappingFragment StoreEntitySet="mebs_settings">
+                <ScalarProperty Name="IdSetting" ColumnName="IdSetting" />
+                <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+                <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_useractivity">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_useractivity">
+              <MappingFragment StoreEntitySet="mebs_useractivity">
+                <ScalarProperty Name="ActivityLogID" ColumnName="ActivityLogID" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Activity" ColumnName="Activity" />
+                <ScalarProperty Name="PageURL" ColumnName="PageURL" />
+                <ScalarProperty Name="ActivityDate" ColumnName="ActivityDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_userdetails">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_userdetails">
+              <MappingFragment StoreEntitySet="mebs_userdetails">
+                <ScalarProperty Name="UserDetailsID" ColumnName="UserDetailsID" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+                <ScalarProperty Name="StreetAddress" ColumnName="StreetAddress" />
+                <ScalarProperty Name="StreetAddress2" ColumnName="StreetAddress2" />
+                <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_usersinroles">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_usersinroles">
+              <MappingFragment StoreEntitySet="mebs_usersinroles">
+                <ScalarProperty Name="IdUserRole" ColumnName="IdUserRole" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mebs_videoitem">
+            <EntityTypeMapping TypeName="sa_mebsModel.mebs_videoitem">
+              <MappingFragment StoreEntitySet="mebs_videoitem">
+                <ScalarProperty Name="IdVideoItem" ColumnName="IdVideoItem" />
+                <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+                <ScalarProperty Name="ItemValue" ColumnName="ItemValue" />
+                <ScalarProperty Name="Start_tc" ColumnName="Start_tc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="MEBSCatalogModel">
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_category" Width="1.5" PointX="3" PointY="20" Height="4.0956022135416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_category_language_mapping" Width="1.5" PointX="15" PointY="12.5" Height="2.3648893229166674" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_channel" Width="1.5" PointX="0.75" PointY="10.75" Height="3.5186979166666674" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_channeltuning" Width="1.5" PointX="3" PointY="6.125" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_encapsulator" Width="1.5" PointX="5.75" PointY="1.625" Height="2.3648893229166656" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_ingesta" Width="1.5" PointX="3" PointY="9.125" Height="9.6723437500000049" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_ingesta_advertisement_mapping" Width="1.5" PointX="7.5" PointY="14.5" Height="3.3263964843749978" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_ingesta_category_mapping" Width="1.5" PointX="5.25" PointY="13" Height="1.9802864583333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_ingestadetails" Width="1.5" PointX="5.25" PointY="15.875" Height="1.98028645833333" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_language" Width="1.5" PointX="12.75" PointY="3.375" Height="2.5571907552083353" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_log" Width="1.5" PointX="3" PointY="1.875" Height="2.3648893229166745" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_login" Width="1.5" PointX="7.75" PointY="5.5" Height="3.5186979166666683" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_logtype" Width="1.5" PointX="0.75" PointY="2.25" Height="1.5956835937500031" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_mediafile" Width="1.5" PointX="12.75" PointY="7.625" Height="2.5571907552083388" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_mixedcategory" Width="1.5" PointX="5.25" PointY="26.75" Height="2.5571907552083388" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_resource" Width="1.5" PointX="12.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_resource_language_mapping" Width="1.5" PointX="15" PointY="3.5" Height="2.172587890624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_roles" Width="1.5" PointX="5.75" PointY="10.625" Height="1.4033821614583388" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_schedule" Width="1.5" PointX="5.25" PointY="18.625" Height="4.480205078124996" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_session" Width="1.5" PointX="10" PointY="2.25" Height="2.1725878906250031" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_settings" Width="1.5" PointX="9.75" PointY="13.625" Height="1.9802864583333388" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_useractivity" Width="1.5" PointX="10" PointY="5.125" Height="2.172587890624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_userdetails" Width="1.5" PointX="10" PointY="8.125" Height="4.2879036458333246" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_usersinroles" Width="1.5" PointX="11.75" PointY="13.625" Height="1.5956835937500102" IsExpanded="true" />
+        <EntityTypeShape EntityType="sa_mebsModel.mebs_videoitem" Width="1.5" PointX="5.25" PointY="23.75" Height="1.9802864583333246" IsExpanded="true" />
+        <AssociationConnector Association="sa_mebsModel.FK_IdCategory1" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="23.427602539062498" />
+          <ConnectorPoint PointX="4.979166666666667" PointY="23.427602539062498" />
+          <ConnectorPoint PointX="5.145833333333333" PointY="23.427602539062498" />
+          <ConnectorPoint PointX="15.75" PointY="23.427602539062498" />
+          <ConnectorPoint PointX="15.75" PointY="14.864889322916667" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdCategoryAss" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="20.001152846153843" />
+          <ConnectorPoint PointX="4.875" PointY="19.626152846153843" />
+          <ConnectorPoint PointX="4.875" PointY="13.990143229166666" />
+          <ConnectorPoint PointX="5.25" PointY="13.990143229166666" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdChildCategoria" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.75" PointY="24.095602213541667" />
+          <ConnectorPoint PointX="3.75" PointY="28.028595377604169" />
+          <ConnectorPoint PointX="5.25" PointY="28.028595377604169" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdParentCategoria" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.1562525" PointY="24.095602213541667" />
+          <ConnectorPoint PointX="4.1562525" PointY="27.358045188802084" />
+          <ConnectorPoint PointX="5.25" PointY="27.358045188802084" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdLanguage" ManuallyRouted="false">
+          <ConnectorPoint PointX="14.25" PointY="5.9310359090544891" />
+          <ConnectorPoint PointX="14.625" PointY="6.30603590905449" />
+          <ConnectorPoint PointX="14.625" PointY="13.682444661458334" />
+          <ConnectorPoint PointX="15" PointY="13.682444661458334" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdChannel" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="12.509348958333334" />
+          <ConnectorPoint PointX="3" PointY="12.509348958333334" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdChannelAss" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.5" PointY="10.75" />
+          <ConnectorPoint PointX="1.5" PointY="7.2112939453125" />
+          <ConnectorPoint PointX="3" PointY="7.2112939453125" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdIngestaAss" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="13.432571614583333" />
+          <ConnectorPoint PointX="5.25" PointY="13.432571614583333" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_Ingesta" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="16.865143229166666" />
+          <ConnectorPoint PointX="4.791666666666667" PointY="16.865143229166666" />
+          <ConnectorPoint PointX="4.958333333333333" PointY="16.865143229166666" />
+          <ConnectorPoint PointX="5.25" PointY="16.865143229166666" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_Ingesta_Advertisement" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="15.427643229166666" />
+          <ConnectorPoint PointX="4.791666666666667" PointY="15.427643229166666" />
+          <ConnectorPoint PointX="4.958333333333333" PointY="15.427643229166666" />
+          <ConnectorPoint PointX="7.5" PointY="15.427643229166666" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_Ingesta_VideoItem" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.4757692307692309" PointY="18.797343750000003" />
+          <ConnectorPoint PointX="4.8160744349011217" PointY="19.137648954131894" />
+          <ConnectorPoint PointX="4.9339255650988791" PointY="19.25550008432965" />
+          <ConnectorPoint PointX="5.0625" PointY="19.384074519230772" />
+          <ConnectorPoint PointX="5.0625" PointY="24.740143229166662" />
+          <ConnectorPoint PointX="5.25" PointY="24.740143229166662" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IngestaSchedule" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="18.74080428846154" />
+          <ConnectorPoint PointX="4.8160744349011217" PointY="19.056878723362662" />
+          <ConnectorPoint PointX="4.9339255650988791" PointY="19.174729853560418" />
+          <ConnectorPoint PointX="4.96875" PointY="19.20955428846154" />
+          <ConnectorPoint PointX="4.96875" PointY="18.342597153846153" />
+          <ConnectorPoint PointX="5.2511528461538459" PointY="18.625" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_Schedule_Advertisement" ManuallyRouted="false">
+          <ConnectorPoint PointX="6.75" PointY="20.865102539062498" />
+          <ConnectorPoint PointX="8.25" PointY="20.865102539062498" />
+          <ConnectorPoint PointX="8.25" PointY="17.826396484374996" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdLanguage1" ManuallyRouted="false">
+          <ConnectorPoint PointX="14.25" PointY="4.586293945312498" />
+          <ConnectorPoint PointX="15" PointY="4.586293945312498" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdLogType" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="3.0478417968750016" />
+          <ConnectorPoint PointX="3" PointY="3.0478417968750016" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.session_FK_1" ManuallyRouted="false">
+          <ConnectorPoint PointX="8.5" PointY="5.5" />
+          <ConnectorPoint PointX="8.5" PointY="3.3362939453125016" />
+          <ConnectorPoint PointX="10" PointY="3.3362939453125016" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.useractivity_FK_1" ManuallyRouted="false">
+          <ConnectorPoint PointX="9.25" PointY="6.398793945312498" />
+          <ConnectorPoint PointX="10" PointY="6.398793945312498" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.userdetails_FK_1" ManuallyRouted="false">
+          <ConnectorPoint PointX="9.25" PointY="8.5718489583333337" />
+          <ConnectorPoint PointX="10" PointY="8.5718489583333337" />
+        </AssociationConnector>
+        <AssociationConnector Association="sa_mebsModel.FK_IdResource" ManuallyRouted="false">
+          <ConnectorPoint PointX="14.25" PointY="1.6439925130208337" />
+          <ConnectorPoint PointX="15.75" PointY="1.6439925130208337" />
+          <ConnectorPoint PointX="15.75" PointY="3.5" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

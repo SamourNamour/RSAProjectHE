@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TranslationSet Name="English" CultureCode="en">
+    <Translation Token="chars_2949165">-</Translation>
+    <Translation Token="LogStartError">We could not create a log file in the mebsSchedulingSystem application directory. This is usually due to UAC permissions. Please run mebs with administrator access. mebs requires write permission to the application folder to work properly. ([MESSAGE]). Do you want to continue?</Translation>
+    <Translation Token="PublicIPAddress">Your Public IP Address is [IP]</Translation>
+    <Translation Token="Validate_MediaDirectory">Please select a valid location to save media</Translation>
+    <Translation Token="ErrorPortMapping">Could not set external port mapping via uPNP. Please configure manually the port forwarding .</Translation>
+  </TranslationSet>
+
+</Translations>

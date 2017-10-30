@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF43AA7E-D59F-443A-8424-417E8CBC21D9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MTV.MAM.WebApp</RootNamespace>
+    <AssemblyName>MTV.MAM.WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CSSFriendly">
+      <HintPath>Lib\CSSFriendly.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLLS\Apache\log4net\1.2.10.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MTV.Library.Common">
+      <HintPath>..\MTV.Library.Common\bin\Release\MTV.Library.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="schedule2">
+      <HintPath>Lib\schedule2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\CatalogHome.aspx" />
+    <Content Include="Admin\Categories.aspx" />
+    <Content Include="Admin\CategoryAdd.aspx" />
+    <Content Include="Admin\CategoryDetails.aspx" />
+    <Content Include="Admin\CategoryOrder.aspx" />
+    <Content Include="Admin\Common\all.png" />
+    <Content Include="Admin\Common\Always.png" />
+    <Content Include="Admin\Common\blank.gif" />
+    <Content Include="Admin\Common\down.png" />
+    <Content Include="Admin\Common\False.png" />
+    <Content Include="Admin\Common\ico-catalog.png" />
+    <Content Include="Admin\Common\ico-configuration.png" />
+    <Content Include="Admin\Common\ico-content.png" />
+    <Content Include="Admin\Common\ico-customers.png" />
+    <Content Include="Admin\Common\ico-dashboard.png" />
+    <Content Include="Admin\Common\ico-help.png" />
+    <Content Include="Admin\Common\ico-user.png" />
+    <Content Include="Admin\Common\ico-warnings.gif" />
+    <Content Include="Admin\Common\Ico_Calendar.png" />
+    <Content Include="Admin\Common\MixedCategory.png" />
+    <Content Include="Admin\Common\True.png" />
+    <Content Include="Admin\Common\unclass.png" />
+    <Content Include="Admin\Common\up.png" />
+    <Content Include="Admin\ConfigurationHome.aspx" />
+    <Content Include="Admin\Modules\CatalogHome.ascx" />
+    <Content Include="Admin\Modules\Categories.ascx" />
+    <Content Include="Admin\Modules\CategoryAdd.ascx" />
+    <Content Include="Admin\Modules\CategoryDetails.ascx" />
+    <Content Include="Admin\Modules\CategoryInfo.ascx" />
+    <Content Include="Admin\Modules\CategoryMappings.ascx" />
+    <Content Include="Admin\Modules\CategoryOrder.ascx" />
+    <Content Include="Admin\Modules\ConfigurationHome.ascx" />
+    <Content Include="Admin\Modules\RedundancyDetails.ascx" />
+    <Content Include="Admin\Modules\RedundancyParameters.ascx" />
+    <Content Include="Admin\Modules\Settings.ascx" />
+    <Content Include="Admin\Modules\SettingsAdd.ascx" />
+    <Content Include="Admin\Modules\SettingsDetails.ascx" />
+    <Content Include="Admin\Modules\SettingsInfo.ascx" />
+    <Content Include="Admin\Modules\SystemEncapsulator.ascx" />
+    <Content Include="Admin\Modules\SystemEncapsulatorAdd.ascx" />
+    <Content Include="Admin\Modules\SystemEncapsulatorDetails.ascx" />
+    <Content Include="Admin\Modules\SystemEncapsulatorInfo.ascx" />
+    <Content Include="Admin\Modules\UserAdd.ascx" />
+    <Content Include="Admin\Modules\UserDetails.ascx" />
+    <Content Include="Admin\Modules\UserInfo.ascx" />
+    <Content Include="Admin\Modules\Users.ascx" />
+    <Content Include="Admin\Modules\UsersHome.ascx" />
+    <Content Include="Admin\RedundancyDetails.aspx" />
+    <Content Include="Admin\RedundancyParameters.aspx" />
+    <Content Include="Admin\Settings.aspx" />
+    <Content Include="Admin\SettingsAdd.aspx" />
+    <Content Include="Admin\SettingsDetails.aspx" />
+    <Content Include="Admin\SystemEncapsulator.aspx" />
+    <Content Include="Admin\SystemEncapsulatorAdd.aspx" />
+    <Content Include="Admin\SystemEncapsulatorDetails.aspx" />
+    <Content Include="Admin\UserAdd.aspx" />
+    <Content Include="Admin\UserDetails.aspx" />
+    <Content Include="Admin\Users.aspx" />
+    <Content Include="Admin\UsersHome.aspx" />
+    <Content Include="App_Themes\Black\base.css" />
+    <Content Include="App_Themes\Black\images\1pix.gif" />
+    <Content Include="App_Themes\Black\images\admin-gvw-bg.gif" />
+    <Content Include="App_Themes\Black\images\admin-header-bg.gif" />
+    <Content Include="App_Themes\Black\images\admin-menu-bg.gif" />
+    <Content Include="App_Themes\Black\images\background.gif" />
+    <Content Include="App_Themes\Black\images\blank.gif" />
+    <Content Include="App_Themes\Black\images\EmptyBg.png" />
+    <Content Include="App_Themes\Black\images\grey_button_bg.gif" />
+    <Content Include="App_Themes\Black\images\grid_header_back.png" />
+    <Content Include="App_Themes\Black\images\innerbox_bg.gif" />
+    <Content Include="App_Themes\Black\images\logo-bg.png" />
+    <Content Include="App_Themes\Black\images\logo.png" />
+    <Content Include="App_Themes\Black\images\menu-item-left.png" />
+    <Content Include="App_Themes\Black\images\menu-item-right.png" />
+    <Content Include="App_Themes\Black\images\menu_bg.jpg" />
+    <Content Include="App_Themes\Black\images\min.png" />
+    <Content Include="App_Themes\Black\images\min15.png" />
+    <Content Include="App_Themes\Black\images\min60.png" />
+    <Content Include="App_Themes\Black\images\red_button_bg.gif" />
+    <Content Include="App_Themes\Black\images\spinner.gif" />
+    <Content Include="App_Themes\Black\images\tab-line.png" />
+    <Content Include="App_Themes\Black\images\tab.png" />
+    <Content Include="App_Themes\Black\images\TimeMarker.png" />
+    <Content Include="App_Themes\Black\master.css" />
+    <Content Include="App_Themes\Black\menu.css" />
+    <Content Include="App_Themes\Black\TimeTable.css" />
+    <Content Include="BesTV.ico" />
+    <Content Include="Common\btnAdd.png" />
+    <Content Include="Common\btnRemove.png" />
+    <Content Include="Common\expired.png" />
+    <Content Include="Common\failedstart.png" />
+    <Content Include="Common\failedstop.png" />
+    <Content Include="Common\ico-adv.png" />
+    <Content Include="Common\ico-edit.png" />
+    <Content Include="Common\ico-Epg.png" />
+    <Content Include="Common\ico-help.png" />
+    <Content Include="Common\ico-link.png" />
+    <Content Include="Common\ico-publish.png" />
+    <Content Include="Common\ico-publishDisabled.png" />
+    <Content Include="Common\ico-user.png" />
+    <Content Include="Common\ico-view.png" />
+    <Content Include="Common\Ico_Calendar.png" />
+    <Content Include="Common\locked.png" />
+    <Content Include="Common\MEBS_Default_Poster.jpg" />
+    <Content Include="Common\missingstart.png" />
+    <Content Include="Common\missingstop.png" />
+    <Content Include="Common\point.png" />
+    <Content Include="Common\pointRouge.png" />
+    <Content Include="Common\prapared.png" />
+    <Content Include="Common\schedule.png" />
+    <Content Include="Common\started.png" />
+    <Content Include="Common\stoped.png" />
+    <Content Include="Common\transparent.gif" />
+    <Content Include="Common\unknownerror.png" />
+    <Content Include="Controles\ImageUpload.ascx" />
+    <Content Include="Controles\NumericTextBox.ascx" />
+    <Content Include="Controles\SimpleTextBox.ascx" />
+    <Content Include="Controles\SimpleTextBoxPswd.ascx" />
+    <Content Include="Controles\TextBoxTiming.ascx" />
+    <None Include="Service References\MEBSCatalog\Reference.datasvcmap">
+      <Generator>DataServiceClientGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="getting_started.aspx" />
+    <Content Include="getting_started_fichiers\image001.jpg" />
+    <Content Include="getting_started_fichiers\image002.jpg" />
+    <Content Include="getting_started_fichiers\image003.jpg" />
+    <Content Include="getting_started_fichiers\image004.jpg" />
+    <Content Include="getting_started_fichiers\image005.jpg" />
+    <Content Include="getting_started_fichiers\image006.jpg" />
+    <Content Include="getting_started_fichiers\image007.jpg" />
+    <Content Include="getting_started_fichiers\image008.jpg" />
+    <Content Include="getting_started_fichiers\image009.jpg" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="VodSystemOutput.aspx" />
+    <Content Include="DCDetails.aspx" />
+    <Content Include="VodPrograming.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="IngestaInformation.aspx" />
+    <Content Include="AuthorizedVodList.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Modules\UC_VodSystemOutput.ascx" />
+    <Content Include="Modules\UC_DCDetails.ascx" />
+    <Content Include="Modules\UC_AuthorizedVodList.ascx" />
+    <Content Include="Modules\UC_PushVodHome.ascx" />
+    <Content Include="Modules\UC_DCScheduleDetails.ascx" />
+    <Content Include="Modules\UC_VodPrograming.ascx" />
+    <Content Include="Controles\ToolTipLabelControl.ascx" />
+    <Content Include="Modules\login.ascx" />
+    <Content Include="PushVodHome.aspx" />
+    <Content Include="DCScheduleDetails.aspx" />
+    <Content Include="Scripts\ajax.js" />
+    <Content Include="Scripts\DivScrollBarPosition.js" />
+    <Content Include="Scripts\javascript.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Main.Master" />
+    <Content Include="MAM.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Browsers\CSSFriendlyAdapters.browser" />
+    <Content Include="App_Themes\Black\black.skin" />
+    <Content Include="GetImage.ashx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\CatalogHome.aspx.cs">
+      <DependentUpon>CatalogHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CatalogHome.aspx.designer.cs">
+      <DependentUpon>CatalogHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CategoryAdd.aspx.cs">
+      <DependentUpon>CategoryAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CategoryAdd.aspx.designer.cs">
+      <DependentUpon>CategoryAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CategoryDetails.aspx.cs">
+      <DependentUpon>CategoryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CategoryDetails.aspx.designer.cs">
+      <DependentUpon>CategoryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CategoryOrder.aspx.cs">
+      <DependentUpon>CategoryOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CategoryOrder.aspx.designer.cs">
+      <DependentUpon>CategoryOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ConfigurationHome.aspx.cs">
+      <DependentUpon>ConfigurationHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ConfigurationHome.aspx.designer.cs">
+      <DependentUpon>ConfigurationHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulator.ascx.cs">
+      <DependentUpon>SystemEncapsulator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulator.ascx.designer.cs">
+      <DependentUpon>SystemEncapsulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorAdd.ascx.cs">
+      <DependentUpon>SystemEncapsulatorAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorAdd.ascx.designer.cs">
+      <DependentUpon>SystemEncapsulatorAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorDetails.ascx.cs">
+      <DependentUpon>SystemEncapsulatorDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorDetails.ascx.designer.cs">
+      <DependentUpon>SystemEncapsulatorDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorInfo.ascx.cs">
+      <DependentUpon>SystemEncapsulatorInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SystemEncapsulatorInfo.ascx.designer.cs">
+      <DependentUpon>SystemEncapsulatorInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulator.aspx.cs">
+      <DependentUpon>SystemEncapsulator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulator.aspx.designer.cs">
+      <DependentUpon>SystemEncapsulator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulatorAdd.aspx.cs">
+      <DependentUpon>SystemEncapsulatorAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulatorAdd.aspx.designer.cs">
+      <DependentUpon>SystemEncapsulatorAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulatorDetails.aspx.cs">
+      <DependentUpon>SystemEncapsulatorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SystemEncapsulatorDetails.aspx.designer.cs">
+      <DependentUpon>SystemEncapsulatorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getting_started.aspx.cs">
+      <DependentUpon>getting_started.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getting_started.aspx.designer.cs">
+      <DependentUpon>getting_started.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\ExportManager.cs" />
+    <Compile Include="Helper\ImageTreeViewNode.cs" />
+    <Compile Include="Helper\MEBConfigHelper.cs" />
+    <Compile Include="Admin\Modules\CatalogHome.ascx.cs">
+      <DependentUpon>CatalogHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CatalogHome.ascx.designer.cs">
+      <DependentUpon>CatalogHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\Categories.ascx.cs">
+      <DependentUpon>Categories.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\Categories.ascx.designer.cs">
+      <DependentUpon>Categories.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryAdd.ascx.cs">
+      <DependentUpon>CategoryAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryAdd.ascx.designer.cs">
+      <DependentUpon>CategoryAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryDetails.ascx.cs">
+      <DependentUpon>CategoryDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryDetails.ascx.designer.cs">
+      <DependentUpon>CategoryDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryInfo.ascx.cs">
+      <DependentUpon>CategoryInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryInfo.ascx.designer.cs">
+      <DependentUpon>CategoryInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryMappings.ascx.cs">
+      <DependentUpon>CategoryMappings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryMappings.ascx.designer.cs">
+      <DependentUpon>CategoryMappings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryOrder.ascx.cs">
+      <DependentUpon>CategoryOrder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\CategoryOrder.ascx.designer.cs">
+      <DependentUpon>CategoryOrder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\ConfigurationHome.ascx.cs">
+      <DependentUpon>ConfigurationHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\ConfigurationHome.ascx.designer.cs">
+      <DependentUpon>ConfigurationHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\RedundancyDetails.ascx.cs">
+      <DependentUpon>RedundancyDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\RedundancyDetails.ascx.designer.cs">
+      <DependentUpon>RedundancyDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\RedundancyParameters.ascx.cs">
+      <DependentUpon>RedundancyParameters.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\RedundancyParameters.ascx.designer.cs">
+      <DependentUpon>RedundancyParameters.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\Settings.ascx.cs">
+      <DependentUpon>Settings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\Settings.ascx.designer.cs">
+      <DependentUpon>Settings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsAdd.ascx.cs">
+      <DependentUpon>SettingsAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsAdd.ascx.designer.cs">
+      <DependentUpon>SettingsAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsDetails.ascx.cs">
+      <DependentUpon>SettingsDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsDetails.ascx.designer.cs">
+      <DependentUpon>SettingsDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsInfo.ascx.cs">
+      <DependentUpon>SettingsInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\SettingsInfo.ascx.designer.cs">
+      <DependentUpon>SettingsInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\UserAdd.ascx.cs">
+      <DependentUpon>UserAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\UserAdd.ascx.designer.cs">
+      <DependentUpon>UserAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\UserDetails.ascx.cs">
+      <DependentUpon>UserDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\UserDetails.ascx.designer.cs">
+      <DependentUpon>UserDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\UserInfo.ascx.cs">
+      <DependentUpon>UserInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\UserInfo.ascx.designer.cs">
+      <DependentUpon>UserInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\Users.ascx.cs">
+      <DependentUpon>Users.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\Users.ascx.designer.cs">
+      <DependentUpon>Users.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Modules\UsersHome.ascx.cs">
+      <DependentUpon>UsersHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Modules\UsersHome.ascx.designer.cs">
+      <DependentUpon>UsersHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\RedundancyDetails.aspx.cs">
+      <DependentUpon>RedundancyDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\RedundancyDetails.aspx.designer.cs">
+      <DependentUpon>RedundancyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\RedundancyParameters.aspx.cs">
+      <DependentUpon>RedundancyParameters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\RedundancyParameters.aspx.designer.cs">
+      <DependentUpon>RedundancyParameters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SettingsAdd.aspx.cs">
+      <DependentUpon>SettingsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SettingsAdd.aspx.designer.cs">
+      <DependentUpon>SettingsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SettingsDetails.aspx.cs">
+      <DependentUpon>SettingsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SettingsDetails.aspx.designer.cs">
+      <DependentUpon>SettingsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserDetails.aspx.cs">
+      <DependentUpon>UserDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserDetails.aspx.designer.cs">
+      <DependentUpon>UserDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UsersHome.aspx.cs">
+      <DependentUpon>UsersHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UsersHome.aspx.designer.cs">
+      <DependentUpon>UsersHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\MEBSContext.cs" />
+    <Compile Include="Authentication\MySqlMembershipProvider.cs" />
+    <Compile Include="Authentication\MySqlRoleProvider.cs" />
+    <Compile Include="Authentication\MySqlRoles.cs" />
+    <Compile Include="Controles\ImageUpload.ascx.cs">
+      <DependentUpon>ImageUpload.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ImageUpload.ascx.designer.cs">
+      <DependentUpon>ImageUpload.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\NumericTextBox.ascx.cs">
+      <DependentUpon>NumericTextBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\NumericTextBox.ascx.designer.cs">
+      <DependentUpon>NumericTextBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\SimpleTextBox.ascx.cs">
+      <DependentUpon>SimpleTextBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\SimpleTextBox.ascx.designer.cs">
+      <DependentUpon>SimpleTextBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\SimpleTextBoxPswd.ascx.cs">
+      <DependentUpon>SimpleTextBoxPswd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\SimpleTextBoxPswd.ascx.designer.cs">
+      <DependentUpon>SimpleTextBoxPswd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\TextBoxTiming.ascx.cs">
+      <DependentUpon>TextBoxTiming.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\TextBoxTiming.ascx.designer.cs">
+      <DependentUpon>TextBoxTiming.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GetImage.ashx.cs">
+      <DependentUpon>GetImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MEBSCatalog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.datasvcmap</DependentUpon>
+    </Compile>
+    <Compile Include="VodSystemOutput.aspx.cs">
+      <DependentUpon>VodSystemOutput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VodSystemOutput.aspx.designer.cs">
+      <DependentUpon>VodSystemOutput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCDetails.aspx.cs">
+      <DependentUpon>DCDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCDetails.aspx.designer.cs">
+      <DependentUpon>DCDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VodPrograming.aspx.cs">
+      <DependentUpon>VodPrograming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VodPrograming.aspx.designer.cs">
+      <DependentUpon>VodPrograming.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\AssemblyInfoManager.cs" />
+    <Compile Include="Helper\ClickablePanel.cs" />
+    <Compile Include="Helper\Config.cs" />
+    <Compile Include="Helper\CPintaTaula.cs" />
+    <Compile Include="Helper\LogHelper.cs" />
+    <Compile Include="Helper\MEBSMAMHelper.cs" />
+    <Compile Include="Helper\ScheduleInfoView .cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IngestaInformation.aspx.cs">
+      <DependentUpon>IngestaInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngestaInformation.aspx.designer.cs">
+      <DependentUpon>IngestaInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizedVodList.aspx.cs">
+      <DependentUpon>AuthorizedVodList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthorizedVodList.aspx.designer.cs">
+      <DependentUpon>AuthorizedVodList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_VodSystemOutput.ascx.cs">
+      <DependentUpon>UC_VodSystemOutput.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_VodSystemOutput.ascx.designer.cs">
+      <DependentUpon>UC_VodSystemOutput.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_DCDetails.ascx.cs">
+      <DependentUpon>UC_DCDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_DCDetails.ascx.designer.cs">
+      <DependentUpon>UC_DCDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_AuthorizedVodList.ascx.cs">
+      <DependentUpon>UC_AuthorizedVodList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_AuthorizedVodList.ascx.designer.cs">
+      <DependentUpon>UC_AuthorizedVodList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_PushVodHome.ascx.cs">
+      <DependentUpon>UC_PushVodHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_PushVodHome.ascx.designer.cs">
+      <DependentUpon>UC_PushVodHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_DCScheduleDetails.ascx.cs">
+      <DependentUpon>UC_DCScheduleDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_DCScheduleDetails.ascx.designer.cs">
+      <DependentUpon>UC_DCScheduleDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\UC_VodPrograming.ascx.cs">
+      <DependentUpon>UC_VodPrograming.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\UC_VodPrograming.ascx.designer.cs">
+      <DependentUpon>UC_VodPrograming.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ToolTipLabelControl.ascx.cs">
+      <DependentUpon>ToolTipLabelControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\ToolTipLabelControl.ascx.designer.cs">
+      <DependentUpon>ToolTipLabelControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PushVodHome.aspx.cs">
+      <DependentUpon>PushVodHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PushVodHome.aspx.designer.cs">
+      <DependentUpon>PushVodHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DCScheduleDetails.aspx.cs">
+      <DependentUpon>DCScheduleDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DCScheduleDetails.aspx.designer.cs">
+      <DependentUpon>DCScheduleDetails.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ServiceReferenceMetadataStorage Include="Service References\MEBSCatalog\">
+      <Type>datasvcmap</Type>
+    </ServiceReferenceMetadataStorage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MEBSCatalog\service.edmx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4314</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

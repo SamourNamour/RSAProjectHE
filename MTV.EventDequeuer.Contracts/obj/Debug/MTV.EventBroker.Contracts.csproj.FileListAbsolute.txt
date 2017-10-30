@@ -1,0 +1,4 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\bin\Debug\MTV.EventBroker.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\bin\Debug\MTV.EventBroker.Contracts.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\obj\Debug\MTV.EventBroker.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\obj\Debug\MTV.EventBroker.Contracts.pdb

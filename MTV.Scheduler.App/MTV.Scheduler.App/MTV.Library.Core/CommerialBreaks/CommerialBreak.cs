@@ -1,0 +1,34 @@
+﻿
+#region - Copyright Motive Television 2012 -
+//
+// All rights are reserved. Reproduction or transmission in whole or in part, in
+// any form or by any means, electronic, mechanical or otherwise, is prohibited
+// without the prior written consent of the copyright owner.
+//
+// Filename: CommerialBreak.cs
+//
+#endregion
+
+#region - Using Directive(s) -
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+// Custom Directive(s)
+#endregion 
+
+namespace MTV.Library.Core.CommerialBreaks
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class CommerialBreak : TriggerEntry {
+        public DateTime PlayoutReplyAt { get; set; }
+        public string PlayoutReply { get; set; }
+        public DateTime LastErrorDateTime{ get; set; }
+        public Exception LastError{ get; set; }
+        public AdvertisementState Status { get; set; }
+    }
+
+}

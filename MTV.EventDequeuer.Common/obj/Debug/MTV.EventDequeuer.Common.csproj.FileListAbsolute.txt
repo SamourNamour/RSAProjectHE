@@ -1,0 +1,39 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\log4net.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\log4net.xml
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.xml
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.xml
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\bin\Debug\log4net.xml
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Common\obj\Debug\MTV.EventDequeuer.Common.csprojResolveAssemblyReference.cache

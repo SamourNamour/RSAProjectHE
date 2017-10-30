@@ -1,0 +1,17 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\bin\Release\MTV.EventDequeuer.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\bin\Release\MTV.EventDequeuer.Contracts.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\obj\Release\MTV.EventDequeuer.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Contracts\obj\Release\MTV.EventDequeuer.Contracts.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.dll
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.dll
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Contracts\bin\Release\MTV.EventDequeuer.Contracts.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.dll
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Contracts\obj\Release\MTV.EventDequeuer.Contracts.pdb

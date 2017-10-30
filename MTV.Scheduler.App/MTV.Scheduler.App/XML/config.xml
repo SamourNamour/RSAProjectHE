@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>en</Language>
+  <ServerPort>8082</ServerPort>
+  <IPMode>IPv4</IPMode>
+  <IPv4Address></IPv4Address>
+  <IPv6Address />
+  <LANPort>8082</LANPort>
+  <DHCPReroute>true</DHCPReroute>
+  <ServerReceiveTimeout>1500</ServerReceiveTimeout>
+  <AllowedIPList></AllowedIPList>
+  <MediaDirectory>NotSet</MediaDirectory>
+  <ReqDirectory>K:\Deploiement\SIYAYA\FTPData\Contents</ReqDirectory>
+  <Priority>3</Priority>
+  <ServerName>NotSet</ServerName>
+  <IPv6_Support_Disabled>false</IPv6_Support_Disabled>
+  <UseUPNP>true</UseUPNP>
+  <LogFileSizeKB>100</LogFileSizeKB>
+  <Enable_Error_Reporting>true</Enable_Error_Reporting>
+  <Enable_Storage_Management>true</Enable_Storage_Management>
+  <MaxMediaFolderSizeMB>200</MaxMediaFolderSizeMB>
+  <SMTPFromAddress>Motive Team</SMTPFromAddress>
+  <SMTPServer>192.168.1.2</SMTPServer>
+  <SMTPPort>25</SMTPPort>
+  <SMTPUsername>test</SMTPUsername>
+  <SMTPPassword>test</SMTPPassword>
+  <SMTPSSL>true</SMTPSSL>
+  <DeleteFilesOlderThanDays>3</DeleteFilesOlderThanDays>
+</configuration>

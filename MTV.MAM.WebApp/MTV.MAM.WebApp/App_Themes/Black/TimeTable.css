@@ -1,0 +1,574 @@
+.container
+{
+	margin-left:15px;
+	float:left;
+}
+
+.Panel_container{
+}
+
+.Panel_top{
+	/*background-color:#2c3a43;*/
+	height:30px;
+	position:relative;
+	clear:both;
+}
+
+
+/*Header Style*/
+.days div{
+	width:150px;
+	float:left;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	border-right:1px solid #d3d3d3;	
+	background:#bbbbbb;/* #ddd; /*url('images/admin-gvw-bg.gif') repeat-x 50%;*/
+}
+/*Style of Days Title*/
+.DaysTitle
+{
+	/*font-family:arial, verdana, helvetica, sans-serif;
+	font-size:11px;
+	color:#ffffff;*/
+	color: #000000;
+	font-weight: bold;
+}
+
+.Panel_cal_content
+{
+
+	clear:both;
+	/*height:600px;*/
+	position:relative;
+	/*scrollbar-base-color: #2c3a43;
+	scrollbar-track-color: #2c3a43;
+	scrollbar-highlight-color: #fafaf9;
+	scrollbar-shadow-color: #fafaf9;
+	scrollbar-arrow-color: #fafaf9;*/
+}
+
+.Panel_cal_hours{
+	width:60px;
+	float:left;
+	height:179px;
+	line-height:179px;
+}
+
+.PanelContentTime 
+{
+	font-size:8px;
+	color:Black;
+	border-bottom:1px solid #bbbbbb ;/* #dddddd;/*#ffffff*/
+	border-right:1px solid #d3d3d3;
+	background-color:#bbbbbb;/*#dddddd;/*#ffffff*/
+}
+
+.PanelContentTime,.spacer{
+	text-align:center;
+	font-family:arial;
+	
+	width:59px;
+	line-height:179px;
+	height:179px;	
+}
+
+.spacer{
+	height:30px;
+	float:left;
+	background-color:#bbbbbb;/*#dddddd;*/
+}
+
+.DivHoureStyle ,.hours_style
+{
+	width:38px; 
+	display:table-cell;
+	vertical-align:top;
+	vertical-align:text-top;
+	height:15px;
+	line-height:15px;
+	text-align:center;
+}
+
+.hours_style
+{
+	/*font-family:arial, verdana, helvetica, sans-serif;
+	font-size:16px;
+	color:#708090;
+	font-weight:bold;*/
+	font-family:arial, verdana, helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+
+.DivBlockIndicatorStyle,.Block 
+{
+	background-color:#bbbbbb;/* #dddddd; /*#ffffff*/
+	width:8px; 
+	height:179px; 
+	float:right
+}
+
+.Block ,.Block5Minutes,.Block15Minutes,.Block60Minutes
+{
+	width:8px; 
+	height:15px; 
+	float:right
+}
+.Block5Minutes
+{
+	background-image:url('images/min.png');
+}
+.Block15Minutes
+{
+	background-image:url('images/min15.png');
+}
+.Block60Minutes
+{
+	background-image:url('images/min60.png');
+}
+
+
+.Panel_cal_appointments
+{	
+	float:left;
+}
+
+.Panel_appoint_day
+{
+	background:#eeeeee; /*#cfcbc2 url(images/TimeTable-bg.png) no-repeat left top;*/
+	width:150px;
+	float:left;
+	border-right:1px solid #dddddd;/*	#fff*/
+}
+.Panel_appoint_day_Alternative
+{
+	background-color:#eeeeee;/*#fff*/
+	width:150px;
+	float:left;
+	border-right:1px solid #dddddd;/*#fff	*/
+}
+
+.Panel_appointHour
+{	
+	border-bottom:1px solid #cccccc;/*#d0d7e5*/
+	text-align:left;
+}
+
+	
+
+/*Style the Div present a content or free time*/
+.Content , .NotEnableSchedule ,.EnableSchedule ,.EnableScheduleSelected , .ContaintScheduleItem,.ContaintScheduleItemSelected  /*,.NoContent , .Ended*/
+{
+	/*border-top:1px solid #eaeaea ; /*#cccccc;#000000*/
+	border-bottom:1px solid #d9d9d9;/*#d4d2d3 ; /*#cccccc;#000000*/
+	border-right:1px solid #cccccc;/*#fff*/
+	cursor:pointer;	
+	text-align: center;
+	vertical-align:middle;
+
+}
+ .NotEnableSchedule
+{
+	border-top:1px solid #f3f3ea;
+	background-color:#e7e7bf;/*#b4cea0;/* #5ba822; /*#e7e7bf;/*#dddc99;/*#f3f3ea;*/
+	vertical-align:middle;
+}
+
+.EnableSchedule
+{
+	border-top:1px solid #dddddd;/*#eeeeee;*/
+	background-color:#dddddd;/*#eeeeee;*/
+	vertical-align:middle;
+}
+.EnableScheduleSelected
+{
+	border-top:1px solid #555555;
+	background-color:#555555;/*#d0deea;*/
+	vertical-align:middle;
+}
+/*Style of a Cellule that Containt a Event from database, Cellule Not Selected By a User*/
+.ContaintScheduleItem
+{
+	border-top:1px solid #eeeeee; /*#dddddd;/* #eecfaf;*/
+	background-color: #eeeeee;  /*#dddddd;/* #eecfaf;*/
+	vertical-align:middle;
+}
+/*Style of a Cellule that Containt a Event from database, Cellule Is Selected By a User*/
+.ContaintScheduleItemSelected
+{
+	border-top:1px solid #555555;/* #e6b682;*/
+	background-color:#555555;/* #e6b682;*/
+	vertical-align:middle;
+}
+.LabelStyle
+{
+	font-size:11px;
+	font-family:arial;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0 0 0 0px;
+	margin: 0 0 0 0px;	
+}
+.ContaintScheduleItemSelected .LabelStyle
+{
+	color:#ccffcc ;/*#000000;*/
+	vertical-align:middle;
+	padding:0 0 0 0px;
+	margin: 0 0 0 0px;	
+}
+/* Style the Title of the content */
+.ContaintScheduleItem .LabelStyle 
+{
+	color:#555555; /*#ccffcc ;/*#000000;*/	
+	vertical-align:middle;
+	padding:0 0 0 0px;
+	margin: 0 0 0 0px;	
+}
+
+
+/*******************************************************************/
+/*   ~.~ Scheduling Control ~.~	  								       */	
+/*******************************************************************/
+.pnlGlobal
+{
+	height:735px;
+	Width:100% !important;
+	Width:98%;
+	
+}
+.pnlGlobal .ScheduleGeneralCss
+{
+	Width:100% !important;
+	Width:98%;
+}
+.ScheduleGeneralCss
+{
+	/*border-left:none;*/
+	border-top:solid 1px #cccccc;
+}
+.ScheduleGeneralCss a
+{
+	color:#222222;
+}
+.ScheduleGeneralCss a:hover
+{
+	color:#222222;
+	text-decoration:underline;
+}
+
+.heading 
+{
+	FONT-SIZE: xx-small; 
+	FONT-FAMILY: Tahoma; 
+    BACKGROUND-COLOR:#ddd; /*#000;#ddeeff;*/
+	padding: 5px 10px 5px 10px;
+	height:30px;
+	color: #000000;
+	font-weight: bold;
+    /*border-bottom:1px solid #676767;*/
+    border-right:1px solid #cccccc;
+    border-top:1px solid #cccccc;
+    border-left:1px solid #dddddd;
+	text-transform:uppercase;
+    
+    /*background: url('images/admin-gvw-bg.gif') repeat-x 50%;*/
+}
+.normal /* ,.Recorded,.StopedByEBS,.InProgress,.MissingStart,.WaitingStart*/
+{
+	FONT-SIZE: xx-small; 
+	FONT-FAMILY: Tahoma; 
+	TEXT-ALIGN: left;
+	/*background-color: #333333 #CCCCCC;*/
+	background: #eeeeee url('Images/TimeMarker.png') repeat-y;/*#333333*/
+	/* Gradient for IE */
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#CCCCCC') ;*/
+	/* Gradient for gecko based browsers (Firefox) */
+	/*background: -moz-linear-gradient(top, #ffffff, #CCCCCC);*/
+	/* Gradient for webkit based browsers (Chrome, Safari)*/
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#CCCCCC));*/
+    /*border-bottom:1px solid #3c3c3c;#676767*/
+  /* border-right-style:none;4px solid #b52e37;/*;#676767*/
+    border-top:1px solid #cccccc;/*#3c3c3c#676767*/
+    border-left:1px solid #cccccc;/*#3c3c3c#3c3c3c;#676767*/
+    border-bottom:1px solid #cccccc;
+    border-right:1px solid #cccccc;/*#3c3c3c*/
+    /*border-left-style:none;
+    border-right-style:none;*/
+    padding-left:6px;
+    
+}
+
+.empty
+{
+	FONT-SIZE: xx-small; 
+    /*border-bottom:1px solid #3c3c3c#676767;*/
+    /*border-right:dotted 1px #3c3c3c;*/
+    /*border-right-style:none;
+    border-left-style:none;*/
+    /*border-top:1px solid #3c3c3c;
+    border-left:1px solid #3c3c3c;*/
+    height:25px;
+    background-color:#eeeeee;/*#333333; /*#fff;*/
+    border-top:1px solid #cccccc;/*#676767*/
+    border-left:1px solid #cccccc;/*;#676767*/
+    border-bottom:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    
+}
+
+.Label
+{
+	vertical-align:middle;
+	text-align:center;
+}
+
+.Timing
+{
+	text-align:left;
+	font-family:arial, verdana, helvetica, sans-serif;
+	font-size:10px;
+	color:#000; /*#708090;*/
+	/*font-weight:bold;*/
+    background-color:#dddddd; /*#fff;*/
+    border-bottom:1px solid #aaaaaa;
+    border-right-style:none;
+    /*border-top:1px solid #676767;*/
+	border-left :solid 1px #cccccc;
+	/*background-image:url('images/TimingBg.png');*/
+    width:98px;
+    height:25px;
+    padding:0px;
+}
+
+/*----~.~ End SchedulingControl ~.~--------------------------------------*/
+
+
+
+/*******************************************************************/
+/*   ~.~ FileDetails ~.~	  								       */	
+/*******************************************************************/
+.Event-details-page
+{
+	border: 1px solid #d3d3d3;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 10px 10px 10px 10px;
+	background-color:#ffffff;
+	height:80%;
+}
+
+.Event-collateral
+{
+	text-align:left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.Event-essential
+{
+}
+
+.Event-details-info
+{
+	text-align:left;
+}
+
+.Event-details-info .picture
+{
+	float: left;
+	width: 290px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.Event-details-info
+{
+	margin:0px;
+	padding:0px;
+	height:298px;
+	Width:290px;
+	background-color:#eee;
+	background-image:url("images/spinner.gif");
+	font-size:x-small;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.Event-details-info .overview
+{
+	float: right;
+	width: 260px;
+	margin-right: 0px;
+	margin-top: 15px;
+	padding: 5px 5px 5px 5px;
+	border: dashed 1px #d3d3d3;
+}
+
+.Event-details-info .overview .Eventname
+{
+	color: #ff9933;
+	font-size: 1.3em;
+	margin-bottom: 0.3em;
+}
+
+.Event-details-info .overview .shortdescription
+{
+	color: #555;
+	margin-bottom: 0.3em;
+	font-size: 1.1em;
+}
+
+.Event-details-info .fulldescription
+{
+	border-top: solid 1px #d3d3d3;
+	clear: both;
+	color: #555;
+	margin-bottom: 0.3em;
+}
+
+.Event-Category
+{
+	text-align:left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+.Event-Category .Category
+{
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#008000;
+}
+
+.Event-Category .Certification
+{
+	
+	text-align:right;
+	
+}
+
+.TableParental
+{
+	background-image:url(images/parental.png);
+	width:38px;
+	height:38px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.TableParental td
+{
+	font-family:Arial;
+	font-size:16px;
+	color:White;
+	font-weight:bold;
+}
+
+/*----~.~ End FileDetails ~.~--------------------------------------*/
+
+/*******************************************************************/
+/*   ~.~ Start Style Of Information DIV ~.~					       */	
+/*******************************************************************/
+
+
+#charts {
+	width:100%;
+	float:right;
+	width:100%;	
+}
+#charts #text_charts {
+	padding:10px;
+	float:right;
+	background-image:url(images/innerbox_bg.gif);
+	background-repeat:repeat-x;
+	background-color:#f3f3f3;
+	border:1px solid gray;
+	font-size:12px;
+	margin:0;
+	/*margin-top:5px;*/
+	width:90%;
+}
+
+#wizard
+{
+	padding-top:8px;
+}
+#wizard .resume_filter 
+{
+	padding-top:12px;
+	font-size:11px;
+}
+
+#wizard .resume_filter ul {
+	clear:both;
+	list-style:circle;
+	margin:0;
+	padding-left:15px;
+}
+
+#wizard .sel_chart
+{
+	font-family:arial, verdana, helvetica, sans-serif;
+	font-size:12px;
+	color:#cd3711;	
+}
+#wizard .Selection
+{
+	font-family:arial, verdana, helvetica, sans-serif;
+	font-size:12px;
+	color:#000;	
+}
+
+legend
+{
+	color:#cd3711;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.loading_chart {
+	margin:0px;
+	padding:0px;
+	height:300px;
+	font-size:x-small;
+	text-align:center;
+	background-image:url(images/spinner.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+
+/*----~.~ End Style Of Information DIV ~.~-------------------------*/
+
+#legendIng 
+{
+	width:100%;
+	float:right;
+}
+#legendIng #text_legend {
+	padding:10px;
+	float:right;
+	background-image:url(images/innerbox_bg.gif);
+	background-repeat:repeat-x;
+	background-color:#f3f3f3;
+	border:1px solid gray;
+	font-size:12px;
+	margin:0;
+	margin-top:5px;
+	width:90%;
+}
+
+ #text_legend .TableLegend
+ {
+ }
+ .TableLegend td
+ {
+	padding-top:5px;
+	padding-bottom:5px;
+ }

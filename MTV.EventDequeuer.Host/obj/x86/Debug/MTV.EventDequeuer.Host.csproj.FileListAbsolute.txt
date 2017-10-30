@@ -1,0 +1,80 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csproj.GenerateResource.Cache
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\log4net.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\log4net.xml
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Common.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Contracts.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\bin\Debug\MTV.EventDequeuer.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.MebsScheduler.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\Siyaya Soft-clone\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\mebsServer\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\bin\Debug\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csproj.GenerateResource.Cache
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb
+K:\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+K:\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+K:\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+K:\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb
+P:\Work\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+P:\Work\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+P:\Work\Developpement\MTV.SIYAYA\CMEScheduler\CMEScheduler\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csprojResolveAssemblyReference.cache
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csproj.GenerateResource.Cache
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+P:\Work\Developpement\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb
+P:\Work\Developpement\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+P:\Work\Developpement\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+P:\Work\Developpement\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+K:\Developpement\SIYAYA\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe.config
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.Scheduler.App\MTV.Scheduler.App\MTV.EventDequeuer.Host\MTV.EventDequeuer.Host.pdb
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.EventDequeuerHostInstaller.resources
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.Service.resources
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.csproj.GenerateResource.Cache
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.exe
+D:\Projects\Siyaya\MTV.SIYAYA\MTV.EventDequeuer.Host\obj\x86\Debug\MTV.EventDequeuer.Host.pdb

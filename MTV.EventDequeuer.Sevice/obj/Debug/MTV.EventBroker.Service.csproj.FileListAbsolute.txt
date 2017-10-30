@@ -1,0 +1,15 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\obj\Debug\MTV.EventBroker.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\obj\Debug\MTV.EventBroker.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Contracts.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Contracts.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\obj\Debug\MTV.EventBroker.Service.csprojResolveAssemblyReference.cache
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\log4net.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\log4net.xml
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Service\bin\Debug\MTV.EventBroker.Common.pdb

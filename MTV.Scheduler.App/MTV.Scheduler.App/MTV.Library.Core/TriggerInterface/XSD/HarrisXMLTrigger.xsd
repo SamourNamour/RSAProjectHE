@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           targetNamespace="http://www.harris.com" 
+           xmlns="http://www.harris.com" version="1.0">
+  <xs:element name="UDPmsg" type="UDPmsg_t" />
+  <xs:complexType name="field_t">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="field_name" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:simpleType name="field_name">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="20"/>
+      <xs:pattern value="([A-Z0-9_])+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="event_t">
+    <xs:sequence>
+      <xs:element name="field" type="field_t" maxOccurs="16"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="empty_t"></xs:complexType>
+  <xs:complexType name="UDPmsg_t">
+    <xs:choice>
+      <xs:sequence>
+        <xs:element name="event" type="event_t" maxOccurs="25"/>
+      </xs:sequence>
+      <xs:element name="ACK" type="empty_t"/>
+      <xs:element name="NAK" type="empty_t"/>
+    </xs:choice>
+    <xs:attribute name="schemaVersion" type="xs:decimal"/>
+    <xs:attribute name="msgNumber" type="xs:integer" use="required"/>
+  </xs:complexType>
+</xs:schema>

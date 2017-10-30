@@ -1,0 +1,925 @@
+2014-04-01 10:42:01,493 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 10:42:01,572 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 10:42:06,192 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 10:42:08,069 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 10:42:08,094 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 10:42:18,335 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 10:42:18,360 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 10:42:28,367 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 10:42:28,368 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 10:42:38,401 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 10:42:38,403 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:06:31,623 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:06:31,667 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:06:31,815 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:06:31,840 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:06:31,841 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:06:32,396 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:06:32,416 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:06:42,433 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:06:42,436 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:06:52,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:06:52,470 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:07:02,478 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:07:02,499 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:07:12,572 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:07:12,579 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:07:22,607 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:07:22,610 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:07:56,276 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:07:56,304 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:07:56,383 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:07:56,409 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:07:56,411 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:07:56,716 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:07:56,729 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:06,734 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:06,735 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:16,743 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:16,745 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:26,760 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:26,769 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:36,801 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:36,803 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:46,826 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:46,827 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:08:56,835 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:08:56,838 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:07,000 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:07,002 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:17,013 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:17,024 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:27,043 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:27,044 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:37,057 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:37,061 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:47,087 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:47,089 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:09:57,093 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:09:57,096 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:07,102 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:07,106 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:17,116 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:17,119 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:27,124 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:27,125 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:37,137 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:37,138 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:47,154 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:47,155 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:10:57,171 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:10:57,173 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:07,193 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:07,194 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:17,217 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:17,230 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:27,237 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:27,238 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:37,257 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:37,258 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:47,273 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:47,275 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:11:57,292 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:11:57,294 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:07,306 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:07,307 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:17,315 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:17,316 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:27,328 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:27,329 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:37,343 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:37,344 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:47,359 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:47,362 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:12:57,380 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:12:57,381 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:07,386 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:07,387 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:17,398 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:17,401 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:27,408 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:27,409 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:37,423 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:37,426 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:47,438 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:47,440 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:13:57,454 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:13:57,460 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:07,478 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:07,480 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:17,496 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:17,497 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:27,508 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:27,510 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:37,525 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:37,526 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:47,531 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:47,532 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:14:57,544 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:14:57,546 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:07,558 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:07,560 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:17,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:17,580 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:27,592 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:27,593 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:37,612 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:37,613 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:47,630 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:47,631 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:15:57,640 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:15:57,642 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:07,657 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:07,660 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:17,688 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:17,694 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:27,703 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:27,705 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:37,713 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:37,714 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:47,723 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:47,724 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:16:57,731 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:16:57,732 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:07,746 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:07,747 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:17,764 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:17,766 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:27,771 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:27,773 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:37,789 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:37,793 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:47,805 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:47,807 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:17:57,814 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:17:57,816 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:07,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:07,832 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:17,840 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:17,842 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:27,855 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:27,855 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:37,861 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:37,867 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:47,877 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:47,880 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:18:57,895 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:18:57,897 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:07,902 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:07,945 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:17,957 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:17,959 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:27,977 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:27,978 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:37,984 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:37,986 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:48,001 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:48,003 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:19:58,015 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:19:58,016 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:08,021 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:08,022 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:18,034 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:18,036 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:28,045 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:28,045 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:38,055 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:38,057 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:48,070 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:48,072 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:20:58,078 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:20:58,079 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:08,083 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:08,084 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:18,095 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:18,097 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:28,116 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:28,117 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:38,142 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:38,144 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:48,165 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:48,166 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:21:58,178 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:21:58,179 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:08,205 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:08,205 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:18,217 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:18,219 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:28,224 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:28,226 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:38,235 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:38,239 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:48,250 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:48,250 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:22:58,266 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:22:58,267 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:08,275 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:08,276 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:18,319 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:18,320 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:28,337 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:28,338 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:38,353 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:38,355 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:48,385 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:48,389 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:23:58,436 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:23:58,437 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:08,443 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:08,444 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:18,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:18,455 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:28,461 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:28,462 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:38,469 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:38,470 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:48,475 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:48,475 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:24:58,498 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:24:58,499 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:08,511 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:08,513 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:18,526 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:18,527 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:28,537 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:28,542 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:38,556 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:38,558 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:48,570 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:48,571 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:25:58,586 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:25:58,587 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:08,596 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:08,599 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:18,610 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:18,611 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:28,622 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:28,623 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:38,636 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:38,637 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:48,644 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:48,644 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:26:58,673 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:26:58,674 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:08,679 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:08,681 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:18,687 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:18,693 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:28,709 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:28,711 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:38,727 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:38,729 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:48,743 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:48,744 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:27:58,795 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:27:58,796 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:08,807 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:08,808 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:18,835 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:18,835 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:28,861 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:28,861 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:38,882 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:38,884 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:48,897 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:48,897 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:28:58,912 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:28:58,914 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:08,926 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:08,928 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:18,942 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:18,943 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:28,956 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:28,958 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:39,000 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:39,000 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:49,019 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:49,020 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:29:59,028 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:29:59,029 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:09,043 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:09,045 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:19,063 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:19,065 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:29,072 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:29,073 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:39,079 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:39,079 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:49,085 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:49,088 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:30:59,110 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:30:59,112 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:31:09,138 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:31:09,139 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:31:19,146 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:31:19,148 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:31:29,161 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:31:29,161 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:35:07,671 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:35:07,702 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:35:07,806 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:35:07,828 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:35:07,829 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:35:08,236 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:35:08,256 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:35:18,262 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:35:18,263 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:35:28,271 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:35:28,272 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:35:38,284 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:35:38,286 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:36:30,821 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:36:30,845 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:36:30,960 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:36:30,989 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:36:30,990 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:36:31,355 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:36:31,371 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:36:41,377 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:36:41,378 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:37:25,439 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:37:25,468 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:37:25,556 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:37:25,584 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:37:25,586 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:37:25,980 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:37:25,992 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:37:35,998 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:37:36,000 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:39:20,177 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 11:39:20,204 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 11:39:20,311 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 11:39:20,334 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 11:39:20,336 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 11:39:20,735 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:39:20,753 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:39:30,756 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:39:30,757 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:39:40,762 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:39:40,763 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:39:50,784 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:39:50,785 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:00,797 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:00,800 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:10,823 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:10,825 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:20,834 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:20,853 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:30,865 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:30,866 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:40,897 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:40,900 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:40:50,908 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:40:50,910 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:00,938 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:00,942 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:10,946 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:10,948 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:20,955 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:20,958 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:30,980 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:30,983 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:40,989 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:41,001 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:41:51,009 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:41:51,020 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:01,031 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:01,033 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:11,058 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:11,061 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:21,075 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:21,078 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:31,089 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:31,094 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:41,110 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:41,112 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:42:51,134 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:42:51,136 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:01,145 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:01,160 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:11,168 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:11,169 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:21,183 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:21,186 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:31,192 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:31,205 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:41,212 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:41,223 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:43:51,230 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:43:51,246 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:01,266 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:01,268 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:11,276 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:11,277 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:21,290 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:21,292 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:31,302 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:31,304 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:41,315 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:41,329 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:44:51,349 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:44:51,352 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:01,358 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:01,359 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:11,370 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:11,373 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:21,380 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:21,381 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:31,398 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:31,401 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:41,408 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:41,410 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:45:51,443 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:45:51,445 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:01,455 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:01,457 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:11,464 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:11,466 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:21,472 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:21,474 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:31,552 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:31,573 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:41,581 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:41,582 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:46:51,591 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:46:51,593 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:01,601 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:01,645 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:11,653 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:11,670 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:21,686 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:21,687 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:31,701 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:31,703 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:41,717 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:41,720 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:47:51,728 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:47:51,743 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:01,760 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:01,763 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:11,770 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:11,954 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:21,983 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:21,997 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:32,011 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:32,014 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:42,026 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:42,029 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:48:52,039 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:48:52,054 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:02,065 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:02,066 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:12,078 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:12,083 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:22,103 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:22,105 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:32,114 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:32,115 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:42,141 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:42,143 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:49:52,148 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:49:52,155 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:02,162 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:02,163 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:12,170 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:12,173 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:22,204 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:22,211 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:32,219 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:32,221 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:42,255 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:42,257 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:50:52,274 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:50:52,278 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:02,292 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:02,295 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:12,317 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:12,322 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:22,335 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:22,338 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:32,355 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:32,357 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:42,382 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:42,385 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:51:52,411 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:51:52,423 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:02,448 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:02,452 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:12,470 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:12,471 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:22,485 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:22,486 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:32,504 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:32,511 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:42,531 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:42,532 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:52:52,544 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:52:52,546 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:02,559 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:02,560 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:12,568 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:12,577 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:22,606 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:22,609 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:32,631 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:32,633 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:42,642 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:42,644 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:53:52,657 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:53:52,659 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:02,675 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:02,677 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:12,689 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:12,690 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:22,699 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:22,700 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:32,709 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:32,711 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:42,730 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:42,731 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:54:52,753 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:54:52,755 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:02,761 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:02,762 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:12,787 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:12,788 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:22,793 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:22,797 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:32,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:32,813 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:42,831 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:42,833 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:55:52,847 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:55:52,849 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:02,863 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:02,865 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:12,879 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:12,880 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:22,885 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:22,886 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:32,892 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:32,907 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:42,912 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:42,913 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:56:52,925 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:56:52,926 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:02,945 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:02,947 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:12,952 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:12,953 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:22,972 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:22,973 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:32,993 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:32,995 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:43,007 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:43,009 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:57:53,021 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:57:53,022 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:03,035 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:03,036 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:13,044 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:13,046 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:23,052 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:23,053 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:33,065 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:33,066 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:43,077 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:43,079 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:58:53,091 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:58:53,092 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:03,116 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:03,117 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:13,125 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:13,126 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:23,140 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:23,143 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:33,152 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:33,153 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:43,191 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:43,192 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 11:59:53,206 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 11:59:53,207 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:03,221 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:03,222 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:13,235 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:13,243 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:23,249 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:23,262 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:33,275 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:33,276 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:43,307 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:43,307 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:00:53,321 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:00:53,324 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:03,342 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:03,343 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:13,351 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:13,353 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:23,374 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:23,376 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:33,388 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:33,391 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:43,397 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:43,398 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:01:53,414 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:01:53,416 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:03,432 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:03,433 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:13,448 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:13,451 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:23,462 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:23,464 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:33,477 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:33,479 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:43,512 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:43,514 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:02:53,523 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:02:53,524 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:03:03,536 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:03:03,537 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:03:13,546 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:03:13,547 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:03:23,574 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:03:23,577 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:03:33,611 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:03:33,612 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:37:36,091 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 12:37:36,116 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 12:37:36,220 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 12:37:36,241 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 12:37:36,242 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 12:37:36,588 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:37:36,601 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:37:46,607 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:37:46,608 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:37:56,618 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:37:56,619 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:40:27,876 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 12:40:27,910 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 12:40:28,022 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 12:40:28,045 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 12:40:28,046 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 12:40:28,361 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:40:28,376 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:40:38,384 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:40:38,386 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:40:48,406 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:40:48,414 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:40:58,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:40:58,423 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:08,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:08,438 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:18,450 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:18,453 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:28,459 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:28,460 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:38,469 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:38,471 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:48,483 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:48,485 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:41:58,496 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:41:58,500 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:45:21,539 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 12:45:21,564 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 12:45:21,650 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 12:45:21,677 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 12:45:21,679 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 12:45:21,987 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:45:22,000 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:45:32,005 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:45:32,005 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:45:42,015 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:45:42,018 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:45:52,028 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:45:52,036 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:02,046 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:02,053 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:12,059 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:12,064 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:22,072 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:22,100 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:32,116 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:32,126 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:42,142 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:42,151 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:46:52,159 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:46:52,180 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:47:02,193 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:47:02,205 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:47:12,267 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:47:12,268 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:47:22,278 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:47:22,280 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:48:32,209 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 12:48:32,233 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 12:48:32,305 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 12:48:32,335 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 12:48:32,336 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 12:48:32,639 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:48:32,652 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:48:42,657 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:48:42,658 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 12:48:52,683 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 12:48:52,706 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:37:53,212 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 16:37:53,236 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 16:37:53,568 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 16:37:53,611 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 16:37:53,655 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 16:37:55,667 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:37:55,680 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:05,686 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:05,686 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:15,691 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:15,692 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:25,780 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:25,781 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:35,835 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:35,836 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:45,849 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:45,851 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:38:55,864 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:38:55,868 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:06,102 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:06,103 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:16,120 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:16,122 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:26,140 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:26,144 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:36,150 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:36,206 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:46,226 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:46,229 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:39:56,384 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:39:56,385 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:06,445 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:06,446 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:16,462 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:16,466 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:26,505 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:26,512 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:36,530 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:36,534 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:46,551 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:46,553 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:40:56,564 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:40:56,565 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:06,587 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:06,593 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:16,624 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:16,628 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:26,670 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:26,673 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:36,687 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:36,688 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:46,707 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:46,710 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 16:41:56,729 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 16:41:56,731 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:17:08,714 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 22:17:08,745 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 22:17:08,808 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 22:17:08,854 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 22:17:08,870 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 22:17:09,900 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:17:09,931 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:17:19,946 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:17:19,946 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:17:29,961 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:17:29,961 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:17:39,992 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:17:39,992 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:17:50,007 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:17:50,023 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:18:00,069 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:18:00,069 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:18:10,100 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:18:10,100 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:18:55,612 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 22:18:55,643 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 22:18:55,737 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 22:18:55,753 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 22:18:55,753 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 22:18:56,065 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:18:56,080 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:06,095 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:06,095 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:16,111 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:16,111 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:26,142 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:26,142 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:36,188 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:36,188 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:46,219 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:46,219 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:19:56,234 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:19:56,250 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:27:37,818 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-01 22:27:37,850 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-01 22:27:37,959 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-01 22:27:37,974 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-01 22:27:37,974 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-01 22:27:38,286 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:27:38,302 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:27:48,317 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:27:48,317 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:27:58,332 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:27:58,332 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:28:08,363 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:28:08,363 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:28:18,379 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:28:18,379 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:28:28,394 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:28:28,394 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-04-01 22:28:38,425 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-04-01 22:28:38,425 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled

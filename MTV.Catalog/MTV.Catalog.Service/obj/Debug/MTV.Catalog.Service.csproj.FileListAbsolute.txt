@@ -1,0 +1,13 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\obj\Debug\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya Soft-clone\MTV.Catalog.Service\bin\Debug\MTV.Catalog.Service.dll.config

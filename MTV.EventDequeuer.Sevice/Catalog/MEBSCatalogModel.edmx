@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="mebsModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="mebsModelStoreContainer">
+          <EntitySet Name="mebs_settings" EntityType="mebsModel.Store.mebs_settings" store:Type="Tables" Schema="sa_mebs" />
+        </EntityContainer>
+        <EntityType Name="mebs_settings">
+          <Key>
+            <PropertyRef Name="IdSetting" />
+          </Key>
+          <Property Name="IdSetting" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SettingName" Type="varchar" MaxLength="200" />
+          <Property Name="SettingValue" Type="varchar" MaxLength="200" />
+          <Property Name="Description" Type="text" />
+          <Property Name="Visibility" Type="varchar" Nullable="false" MaxLength="1" />
+        </EntityType>
+        <Function Name="mebs_Ingesta_SetIsExpiredValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="sa_mebs" />
+        <Function Name="mebs_schedule_SetLockValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="sa_mebs" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="mebsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="mebsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="mebs_settings" EntityType="mebsModel.mebs_settings" />
+          <FunctionImport Name="ScheduleSetLockValue" />
+          <FunctionImport Name="IngestaSetIsExpiredValue" />
+        </EntityContainer>
+        <EntityType Name="mebs_settings">
+          <Key>
+            <PropertyRef Name="IdSetting" />
+          </Key>
+          <Property Name="IdSetting" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SettingName" Type="String" />
+          <Property Name="SettingValue" Type="String" />
+          <Property Name="Description" Type="String" />
+          <Property Name="Visibility" Type="String" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="mebsModelStoreContainer" CdmEntityContainer="mebsEntities">
+          <EntitySetMapping Name="mebs_settings">
+            <EntityTypeMapping TypeName="mebsModel.mebs_settings">
+              <MappingFragment StoreEntitySet="mebs_settings">
+                <ScalarProperty Name="IdSetting" ColumnName="IdSetting" />
+                <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+                <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="ScheduleSetLockValue" FunctionName="mebsModel.Store.mebs_schedule_SetLockValue" />
+          <FunctionImportMapping FunctionImportName="IngestaSetIsExpiredValue" FunctionName="mebsModel.Store.mebs_Ingesta_SetIsExpiredValue" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="MEBSCatalogModel">
+        <EntityTypeShape EntityType="mebsModel.mebs_settings" Width="1.5" PointX="0.75" PointY="0.75" Height="1.9802864583333331" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

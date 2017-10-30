@@ -1,0 +1,54 @@
+2014-02-28 14:17:48,546 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:17:48,595 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:17:48,597 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:18:37,216 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:18:37,260 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:18:37,261 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:19:23,193 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:19:23,246 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:19:23,248 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:20:19,484 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:20:19,530 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:20:19,532 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:20:47,074 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:20:47,135 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:20:47,137 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:21:20,152 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:21:20,201 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:21:20,203 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:21:38,651 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:21:38,698 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:21:38,700 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:22:39,114 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:22:39,164 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:22:40,597 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-02-28 14:22:43,752 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-02-28 14:22:43,757 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:30:58,716 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:30:58,856 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:30:59,852 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-02-28 14:31:01,605 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-02-28 14:31:01,610 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-02-28 14:36:33,519 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-28 14:36:33,565 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-02-28 14:36:34,499 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-02-28 14:36:35,127 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-02-28 14:36:35,128 INFO  MTV.Catalog.Common.LogManager: Service Started

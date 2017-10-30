@@ -1,0 +1,446 @@
+2014-04-08 15:04:40,134 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-08 15:04:40,168 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-08 15:04:40,311 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-08 15:04:40,344 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-08 15:04:40,348 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-08 15:04:40,769 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:04:40,797 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:04:40,797 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:04:40,798 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:04:40,799 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:04:40,803 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:04:50,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:04:50,813 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:04:50,817 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:04:50,818 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:04:50,818 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:04:50,819 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:00,875 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:00,879 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:00,880 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:00,881 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:00,882 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:00,886 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:10,902 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:10,907 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:10,914 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:10,915 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:10,915 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:10,917 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:20,937 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:20,941 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:20,944 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:20,945 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:20,946 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:20,947 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:30,965 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:30,970 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:30,974 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:30,976 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:30,977 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:30,978 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:40,995 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:40,997 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:40,999 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:41,005 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:41,006 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:41,007 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 15:05:51,021 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 17:29:50</date></realtimeEvent>
+2014-04-08 15:05:51,025 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 15:05:51,027 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:51,029 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 15:05:51,030 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 15:05:51,030 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:08:49,171 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-08 16:08:49,203 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-08 16:08:49,562 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-08 16:08:49,671 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-08 16:08:49,671 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-08 16:08:51,015 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:08:51,046 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:08:51,046 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:08:51,046 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:08:51,046 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:08:51,062 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:09:01,062 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:01,062 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:09:01,093 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:01,093 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:09:01,109 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:09:01,109 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:09:11,109 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:11,109 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:09:11,171 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:11,187 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:09:11,187 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:09:11,187 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:09:21,187 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:21,187 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:09:21,187 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:21,187 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:09:21,187 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:09:21,187 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:09:31,218 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:31,218 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:09:31,218 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:09:31,218 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:09:31,218 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:09:31,218 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:10:55,296 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-08 16:10:55,328 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-08 16:10:55,625 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-08 16:10:55,656 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-08 16:10:55,671 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-08 16:10:56,265 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:10:56,281 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:10:56,281 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:10:56,281 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:10:56,281 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:10:56,281 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:06,296 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:06,296 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:06,296 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:06,296 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:06,296 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:06,312 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:16,312 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:16,312 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:16,312 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:16,312 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:16,328 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:16,328 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:26,343 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:26,343 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:26,343 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:26,343 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:26,343 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:26,343 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:36,359 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:36,359 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:36,359 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:36,359 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:36,359 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:36,359 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:46,375 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:46,375 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:46,375 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:46,375 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:46,375 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:46,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:11:56,390 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:56,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:11:56,390 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:11:56,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:11:56,390 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:11:56,406 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:06,406 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:06,406 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:06,406 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:06,406 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:06,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:06,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:16,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:16,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:16,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:16,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:16,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:16,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:26,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:26,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:26,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:26,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:26,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:26,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:36,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:36,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:36,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:36,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:36,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:36,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:46,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:46,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:46,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:46,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:46,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:46,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:12:56,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:56,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:12:56,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:12:56,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:12:56,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:12:56,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:13:06,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:13:06,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:13:06,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:13:06,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:13:06,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:13:06,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:13:16,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:13:16,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:13:16,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:13:16,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:13:16,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:13:16,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:17:09,375 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-04-08 16:17:09,484 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-04-08 16:17:09,937 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-04-08 16:17:09,968 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-04-08 16:17:09,968 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-04-08 16:17:10,359 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:10,375 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:17:10,375 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:10,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:17:10,390 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:17:10,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:17:20,390 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:20,390 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:17:20,406 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:20,406 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:17:20,406 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:17:20,406 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:17:30,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:30,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:17:30,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:30,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:17:30,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:17:30,421 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:17:40,421 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:40,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:17:40,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:40,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:17:40,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:17:40,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:17:50,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:50,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:17:50,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:17:50,437 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:17:50,437 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:17:50,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:00,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:00,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:00,453 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:00,453 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:00,468 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:00,468 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:10,484 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:10,484 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:10,484 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:10,484 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:10,484 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:10,484 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:20,500 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:20,500 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:20,500 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-04 15:27:08</date></realtimeEvent>
+2014-04-08 16:18:20,500 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:20,500 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:20,500 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:30,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:30,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:30,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:30,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:30,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:30,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:40,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:40,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:40,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:40,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:40,515 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:40,515 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:18:50,531 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:50,531 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:18:50,531 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:18:50,531 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:18:50,531 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:18:50,531 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:00,546 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:00,546 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:00,546 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:00,546 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:00,546 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:00,546 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:10,562 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:10,562 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:10,562 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:10,562 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:10,562 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:10,562 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:20,562 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:20,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:20,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:20,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:20,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:20,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:30,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:30,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:30,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:30,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:30,578 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:30,578 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:40,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:40,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:40,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:40,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:40,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:40,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:19:50,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:50,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:19:50,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:19:50,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:19:50,593 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:19:50,593 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:00,609 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:00,625 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:00,625 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:00,625 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:00,625 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:00,625 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:10,640 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:10,640 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:10,640 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:10,640 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:10,703 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:10,703 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:20,703 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:20,703 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:20,703 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:20,703 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:20,703 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:20,703 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:30,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:30,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:30,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:30,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:30,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:30,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:40,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:40,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:40,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:40,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:40,718 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:40,718 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:20:50,734 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:50,734 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:20:50,734 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:20:50,734 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:20:50,750 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:20:50,750 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:00,750 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:00,750 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:00,750 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:00,750 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:00,750 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:00,750 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:10,765 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:10,765 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:10,765 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:10,765 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:10,765 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:10,765 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:20,765 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:20,765 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:20,765 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:20,781 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:20,781 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:20,781 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:30,796 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:30,796 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:30,796 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:30,796 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:30,796 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:30,796 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:40,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:40,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:40,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:40,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:40,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:40,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:21:50,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:50,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:21:50,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:21:50,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:21:50,812 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:21:50,812 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:00,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:00,828 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:00,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:00,828 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:00,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:00,828 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:10,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:10,828 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:10,828 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:10,828 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:10,843 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:10,843 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:20,843 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:20,843 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:20,843 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:20,843 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:20,843 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:20,859 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:30,859 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:30,859 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:30,859 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:30,859 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:30,859 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:30,875 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:40,875 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:40,875 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:40,875 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:40,875 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:40,875 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:40,875 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:22:50,890 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:50,890 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:22:50,890 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:22:50,890 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:22:50,890 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:22:50,890 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:23:00,906 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:00,906 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:23:00,906 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:00,906 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:23:00,906 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:23:00,906 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:23:10,937 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:10,937 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:23:10,937 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:10,937 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:23:10,937 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:23:10,937 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:23:20,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:20,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:23:20,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:20,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:23:20,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:23:20,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn
+2014-04-08 16:23:30,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentLockedOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:30,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentLockedOn
+2014-04-08 16:23:30,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentScheduledOn</eventName><date>2014-04-08 15:18:21</date></realtimeEvent>
+2014-04-08 16:23:30,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentScheduledOn
+2014-04-08 16:23:30,953 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>LastVideoContentRemovedOn</eventName><date> </date></realtimeEvent>
+2014-04-08 16:23:30,953 ERROR MTV.EventDequeuer.Common.LogManager: LastVideoContentRemovedOn

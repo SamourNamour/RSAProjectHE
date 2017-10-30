@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sa_mebsModelStoreContainer" CdmEntityContainer="mebsEntities">
+    <EntitySetMapping Name="mebs_category">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_category">
+        <MappingFragment StoreEntitySet="mebs_category">
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+          <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+          <ScalarProperty Name="IsMixed" ColumnName="IsMixed" />
+          <ScalarProperty Name="IsUnclass" ColumnName="IsUnclass" />
+          <ScalarProperty Name="StandardLCN" ColumnName="StandardLCN" />
+          <ScalarProperty Name="MediasetLCN" ColumnName="MediasetLCN" />
+          <ScalarProperty Name="Default" ColumnName="Default" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_category_language_mapping">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_category_language_mapping">
+        <MappingFragment StoreEntitySet="mebs_category_language_mapping">
+          <ScalarProperty Name="VirtualChannelDisignation" ColumnName="VirtualChannelDisignation" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IdLanguage" ColumnName="IdLanguage" />
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+          <ScalarProperty Name="IdCategoryDetails" ColumnName="IdCategoryDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_channel">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_channel">
+        <MappingFragment StoreEntitySet="mebs_channel">
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="XmlFileName" ColumnName="XmlFileName" />
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="LogoFileName" ColumnName="LogoFileName" />
+          <ScalarProperty Name="ChannelKey" ColumnName="ChannelKey" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+          <ScalarProperty Name="LongName" ColumnName="LongName" />
+          <ScalarProperty Name="Bus" ColumnName="Bus" />
+          <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_channeltuning">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_channeltuning">
+        <MappingFragment StoreEntitySet="mebs_channeltuning">
+          <ScalarProperty Name="OriginalNetworkID" ColumnName="OriginalNetworkID" />
+          <ScalarProperty Name="TransportStreamID" ColumnName="TransportStreamID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+          <ScalarProperty Name="IdChannelTuning" ColumnName="IdChannelTuning" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_encapsulator">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_encapsulator">
+        <MappingFragment StoreEntitySet="mebs_encapsulator">
+          <ScalarProperty Name="MultiInstancesNum" ColumnName="MultiInstancesNum" />
+          <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+          <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdEncapsulator" ColumnName="IdEncapsulator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_ingesta">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta">
+        <MappingFragment StoreEntitySet="mebs_ingesta">
+          <ScalarProperty Name="PreservationPriority" ColumnName="PreservationPriority" />
+          <ScalarProperty Name="OriginalFileName" ColumnName="OriginalFileName" />
+          <ScalarProperty Name="MediaFileSizeAfterRedundancy" ColumnName="MediaFileSizeAfterRedundancy" />
+          <ScalarProperty Name="MediaFileNameAfterRedundancy" ColumnName="MediaFileNameAfterRedundancy" />
+          <ScalarProperty Name="SelfCommercial" ColumnName="SelfCommercial" />
+          <ScalarProperty Name="PublishAfter" ColumnName="PublishAfter" />
+          <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+          <ScalarProperty Name="MaxAccesses" ColumnName="MaxAccesses" />
+          <ScalarProperty Name="CopyControl" ColumnName="CopyControl" />
+          <ScalarProperty Name="DrmProtected" ColumnName="DrmProtected" />
+          <ScalarProperty Name="MinActiveTimeAfterFirstAccess" ColumnName="MinActiveTimeAfterFirstAccess" />
+          <ScalarProperty Name="ActiveTimeAfterFirstAccess" ColumnName="ActiveTimeAfterFirstAccess" />
+          <ScalarProperty Name="ActiveDuring" ColumnName="ActiveDuring" />
+          <ScalarProperty Name="ActiveSince" ColumnName="ActiveSince" />
+          <ScalarProperty Name="DisableAccess" ColumnName="DisableAccess" />
+          <ScalarProperty Name="LifeAfterActivation" ColumnName="LifeAfterActivation" />
+          <ScalarProperty Name="MinLifeAfterActivation" ColumnName="MinLifeAfterActivation" />
+          <ScalarProperty Name="LifeAfterFirstAccess" ColumnName="LifeAfterFirstAccess" />
+          <ScalarProperty Name="MinLifeAfterFirstAccess" ColumnName="MinLifeAfterFirstAccess" />
+          <ScalarProperty Name="XmlFileName" ColumnName="XmlFileName" />
+          <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Poster" ColumnName="Poster" />
+          <ScalarProperty Name="IsExpired" ColumnName="IsExpired" />
+          <ScalarProperty Name="Last_Update" ColumnName="Last_Update" />
+          <ScalarProperty Name="PosterFileExtension" ColumnName="PosterFileExtension" />
+          <ScalarProperty Name="ParentalRating" ColumnName="ParentalRating" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AvailableAfter_time" ColumnName="AvailableAfter_time" />
+          <ScalarProperty Name="Validity_time" ColumnName="Validity_time" />
+          <ScalarProperty Name="Immortality_time" ColumnName="Immortality_time" />
+          <ScalarProperty Name="Expiration_time" ColumnName="Expiration_time" />
+          <ScalarProperty Name="Estimated_Stop" ColumnName="Estimated_Stop" />
+          <ScalarProperty Name="Estimated_Start" ColumnName="Estimated_Start" />
+          <ScalarProperty Name="Date_Creation" ColumnName="Date_Creation" />
+          <ScalarProperty Name="IdChannel" ColumnName="IdChannel" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Code_Package" ColumnName="Code_Package" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_ingesta_category_mapping">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta_category_mapping">
+        <MappingFragment StoreEntitySet="mebs_ingesta_category_mapping">
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+          <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+          <ScalarProperty Name="IdIngestaCategory" ColumnName="IdIngestaCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_ingestadetails">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingestadetails">
+        <MappingFragment StoreEntitySet="mebs_ingestadetails">
+          <ScalarProperty Name="DetailsValue" ColumnName="DetailsValue" />
+          <ScalarProperty Name="DetailsName" ColumnName="DetailsName" />
+          <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+          <ScalarProperty Name="IdIngestaDetails" ColumnName="IdIngestaDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_language">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_language">
+        <MappingFragment StoreEntitySet="mebs_language">
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+          <ScalarProperty Name="IsPublished" ColumnName="IsPublished" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="LanguageCulture" ColumnName="LanguageCulture" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdLanguage" ColumnName="IdLanguage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_login">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_login">
+        <MappingFragment StoreEntitySet="mebs_login">
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="UserGUID" ColumnName="UserGUID" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_mixedcategory">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_mixedcategory">
+        <MappingFragment StoreEntitySet="mebs_mixedcategory">
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="Orden" ColumnName="Orden" />
+          <ScalarProperty Name="IdChildCategory" ColumnName="IdChildCategory" />
+          <ScalarProperty Name="IdParentCategory" ColumnName="IdParentCategory" />
+          <ScalarProperty Name="IdMixedCategory" ColumnName="IdMixedCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_roles">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_roles">
+        <MappingFragment StoreEntitySet="mebs_roles">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_session">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_session">
+        <MappingFragment StoreEntitySet="mebs_session">
+          <ScalarProperty Name="IsExpired" ColumnName="IsExpired" />
+          <ScalarProperty Name="LastAccess" ColumnName="LastAccess" />
+          <ScalarProperty Name="UserGuid" ColumnName="UserGuid" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_settings">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_settings">
+        <MappingFragment StoreEntitySet="mebs_settings">
+          <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+          <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+          <ScalarProperty Name="IdSetting" ColumnName="IdSetting" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_useractivity">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_useractivity">
+        <MappingFragment StoreEntitySet="mebs_useractivity">
+          <ScalarProperty Name="ActivityDate" ColumnName="ActivityDate" />
+          <ScalarProperty Name="PageURL" ColumnName="PageURL" />
+          <ScalarProperty Name="Activity" ColumnName="Activity" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ActivityLogID" ColumnName="ActivityLogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_userdetails">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_userdetails">
+        <MappingFragment StoreEntitySet="mebs_userdetails">
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="StreetAddress2" ColumnName="StreetAddress2" />
+          <ScalarProperty Name="StreetAddress" ColumnName="StreetAddress" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserDetailsID" ColumnName="UserDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_usersinroles">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_usersinroles">
+        <MappingFragment StoreEntitySet="mebs_usersinroles">
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IdUserRole" ColumnName="IdUserRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_schedule">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_schedule">
+        <MappingFragment StoreEntitySet="mebs_schedule">
+          <ScalarProperty Name="Dummy_Status" ColumnName="Dummy_Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Trigger_Type" ColumnName="Trigger_Type" />
+          <ScalarProperty Name="Poster_SentTries" ColumnName="Poster_SentTries" />
+          <ScalarProperty Name="Poster_DateSent" ColumnName="Poster_DateSent" />
+          <ScalarProperty Name="Poster_Status" ColumnName="Poster_Status" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Exact_Stop" ColumnName="Exact_Stop" />
+          <ScalarProperty Name="Exact_Start" ColumnName="Exact_Start" />
+          <ScalarProperty Name="Estimated_Stop" ColumnName="Estimated_Stop" />
+          <ScalarProperty Name="Estimated_Start" ColumnName="Estimated_Start" />
+          <ScalarProperty Name="Date_Schedule" ColumnName="Date_Schedule" />
+          <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+          <ScalarProperty Name="IdSchedule" ColumnName="IdSchedule" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_mediafile">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_mediafile">
+        <MappingFragment StoreEntitySet="mebs_mediafile">
+          <ScalarProperty Name="RedundancyFileName" ColumnName="RedundancyFileName" />
+          <ScalarProperty Name="RedundancyStatus" ColumnName="RedundancyStatus" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="FileSizeAfterRedundancy" ColumnName="FileSizeAfterRedundancy" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="OriginalFileName" ColumnName="OriginalFileName" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mebs_ingesta_advertisement_mapping">
+      <EntityTypeMapping TypeName="sa_mebsModel.mebs_ingesta_advertisement_mapping">
+        <MappingFragment StoreEntitySet="mebs_ingesta_advertisement_mapping">
+          <ScalarProperty Name="DateCreation" ColumnName="DateCreation" />
+          <ScalarProperty Name="CanSkip" ColumnName="CanSkip" />
+          <ScalarProperty Name="MaxRwdSpeed" ColumnName="MaxRwdSpeed" />
+          <ScalarProperty Name="MaxFwdSpeed" ColumnName="MaxFwdSpeed" />
+          <ScalarProperty Name="StopTimePoint" ColumnName="StopTimePoint" />
+          <ScalarProperty Name="StartTimePoint" ColumnName="StartTimePoint" />
+          <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+          <ScalarProperty Name="IdSchedule" ColumnName="IdSchedule" />
+          <ScalarProperty Name="IdIngesta" ColumnName="IdIngesta" />
+          <ScalarProperty Name="IdIngestaAdvertisement" ColumnName="IdIngestaAdvertisement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

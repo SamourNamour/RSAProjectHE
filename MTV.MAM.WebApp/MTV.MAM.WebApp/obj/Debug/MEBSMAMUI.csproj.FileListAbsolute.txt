@@ -1,0 +1,52 @@
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.pdb
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\AjaxControlToolkit.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\CSSFriendly.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\log4net.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\schedule2.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\System.Data.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\edtFTPnet.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.pdb
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.dll
+D:\Projects\CME\Test Mirc\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.pdb
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.pdb
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\AjaxControlToolkit.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\CSSFriendly.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\log4net.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\schedule2.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\System.Data.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\edtFTPnet.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.pdb
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.dll
+D:\Projects\CME\CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.pdb
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.pdb
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\AjaxControlToolkit.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\CSSFriendly.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\log4net.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\schedule2.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\System.Data.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\edtFTPnet.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.pdb
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\ResolveAssemblyReference.cache
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.dll
+I:\EBS_Coding_Space\HE CME\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.pdb
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\MEBSMAMUI.pdb
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\AjaxControlToolkit.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\CSSFriendly.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\log4net.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\schedule2.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\System.Data.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\edtFTPnet.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\bin\MEBS.Library.Common.pdb
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\obj\Debug\ResolveAssemblyReference.cache
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.dll
+K:\Developpement\SIYAYA\MEBSMAMUI\MEBSMAMUI\obj\Debug\MEBSMAMUI.pdb

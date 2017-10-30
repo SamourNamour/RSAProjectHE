@@ -1,0 +1,10 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\MTV.EventBroker.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\MTV.EventBroker.Common.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\log4net.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\log4net.xml
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\obj\Debug\MTV.EventBroker.Common.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\obj\Debug\MTV.EventBroker.Common.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.EventBroker.Common\bin\Debug\Castle.DynamicProxy2.dll

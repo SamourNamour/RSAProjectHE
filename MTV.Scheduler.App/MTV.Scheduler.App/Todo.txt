@@ -1,0 +1,51 @@
+﻿http://stackoverflow.com/questions/16567803/i-want-to-send-helo-localhost-to-a-smtp-server-with-net-c-or-vb
+
+http://www.javalobby.org/articles/distributed-jms/
+
+http://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
+
+http://support.microsoft.com/kb/2531867/fr (fix)
+http://support.microsoft.com/kb/2532942 (fix)
+
+
+http://www.codeproject.com/Articles/16765/WCF-Windows-Communication-Foundation-Example
+
+http://msdn.microsoft.com/fr-fr/magazine/cc163531.aspx
+
+http://windows-installer-xml-wix-toolset.687559.n2.nabble.com/Re-Installing-MSMQ-as-dependency-P-td7587542.html
+
+http://blogs.msdn.com/b/johnbreakwell/archive/2008/05/14/how-to-tell-if-msmq-is-installed.aspx
+
+http://wix.tramontana.co.hu/ (custom installer)
+
+http://steptodotnet.blogspot.com/2012/10/visual-studio-package-and-development.html
+
+
+http://blogs.msdn.com/b/astebner/archive/2006/08/12/696833.aspx
+ 
+	-----------------------------------------
+
+
+	<?xml version="1.0" encoding="UTF-8"?>
+<enqueue  version="1.1">
+	<request  id="16548">
+		<title>Test 2013</title>
+		<originalTitle>"Goya's Ghosts 2013"</originalTitle>
+		<productId>"16548"</productId>
+		<genre>"Drama, Válecný"</genre>
+		<abstract>"Javier Bardem"</abstract>
+		<actors>"Javier Bardem, Natalie Portman, Stellan Skarsgård, Randy Stevenson"</actors>
+		<directors>"Miloš Forman"</directors>
+		<year>2012</year>
+		<country>"USA"</country>
+		<studioName>"HCE"</studioName>
+		<availabilityDate>"2012-07-25"</availabilityDate>
+		<expirationDate>"2014-08-25"</expirationDate>
+		<validityDate>"2012-08-25"</validityDate>
+		<parentalControl>0</parentalControl>
+		<formatScreen>"16:9"</formatScreen>
+		<hd>"Y"</hd>
+	    <mainImage>"791566.jpg"</mainImage>
+		<mediaFileName>Product2013.ts</mediaFileName>
+	</request >
+</enqueue >   

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mebsModelStoreContainer" CdmEntityContainer="mebsEntities">
+    <EntitySetMapping Name="mebs_settings">
+      <EntityTypeMapping TypeName="mebsModel.mebs_settings">
+        <MappingFragment StoreEntitySet="mebs_settings">
+          <ScalarProperty Name="IdSetting" ColumnName="IdSetting" />
+          <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+          <ScalarProperty Name="SettingValue" ColumnName="SettingValue" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Visibility" ColumnName="Visibility" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ScheduleSetLockValue" FunctionName="mebsModel.Store.mebs_schedule_SetLockValue" />
+    <FunctionImportMapping FunctionImportName="IngestaSetIsExpiredValue" FunctionName="mebsModel.Store.mebs_Ingesta_SetIsExpiredValue" />
+  </EntityContainerMapping>
+</Mapping>

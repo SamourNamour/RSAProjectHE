@@ -1,0 +1,8 @@
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\MTV.Catalog.Service.pdb
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\Castle.Core.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\Castle.DynamicProxy2.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\Castle.MicroKernel.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\bin\Release\Castle.Windsor.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Release\MTV.Catalog.Service.dll
+D:\Projects\Siyaya\Siyaya.Mebs.Source\mebsServer\MTV.Catalog.Service\obj\Release\MTV.Catalog.Service.pdb

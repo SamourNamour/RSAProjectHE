@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MTV.Scheduler.App.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ViewScheduleDetails" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ViewNotifications" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ViewGrid" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RichLogMaxLenght" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2500</Value>
+    </Setting>
+    <Setting Name="LastScheduleChangeDateTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2012-03-28</Value>
+    </Setting>
+    <Setting Name="KeepAliveCallBackEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="KeepAliveCallBackTimerInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="LastVideoContentLockedOn" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2013-03-28</Value>
+    </Setting>
+    <Setting Name="LastVideoContentScheduledOn" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2013-03-28</Value>
+    </Setting>
+    <Setting Name="LastVideoContentRemovedOn" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2013-03-28</Value>
+    </Setting>
+    <Setting Name="lastRemove" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">160</Value>
+    </Setting>
+    <Setting Name="Height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">236</Value>
+    </Setting>
+    <Setting Name="PosterAutomaticRecordLastSent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">28/03/2013</Value>
+    </Setting>
+    <Setting Name="LastCategoryItemsChangedOn" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2014-04-22</Value>
+    </Setting>
+    <Setting Name="LastVideoContentExpiredOn" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,49 @@
+2014-02-17 13:16:16,467 INFO  MTV.EventBroker.Common.LogManager: Initialising Moneycorp.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 13:16:16,534 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 13:16:16,536 INFO  MTV.EventBroker.Common.LogManager: Service Started
+2014-02-17 15:41:01,611 INFO  MTV.EventBroker.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 15:41:01,889 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 15:42:04,932 INFO  MTV.EventBroker.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 15:42:04,962 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 15:42:15,527 INFO  MTV.EventBroker.Common.LogManager: Attempting to open Codeproject.EventBroker.Service.EventBroker service.
+2014-02-17 15:42:16,834 INFO  MTV.EventBroker.Common.LogManager: EventBroker 
+ 'EventBroker' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventBroker at net.tcp://localhost:63747/EventBroker with NetTcpBinding binding; 
+
+2014-02-17 15:42:16,838 INFO  MTV.EventBroker.Common.LogManager: Service Started
+2014-02-17 15:45:55,386 INFO  MTV.EventBroker.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 15:45:55,413 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 15:45:55,842 INFO  MTV.EventBroker.Common.LogManager: Attempting to open MTV.EventBroker.Service.EventBroker service.
+2014-02-17 15:45:56,291 INFO  MTV.EventBroker.Common.LogManager: EventBroker 
+ 'EventBroker' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventBroker at net.tcp://localhost:63747/EventBroker with NetTcpBinding binding; 
+
+2014-02-17 15:45:56,293 INFO  MTV.EventBroker.Common.LogManager: Service Started
+2014-02-17 15:56:12,549 INFO  MTV.EventBroker.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 15:56:12,581 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 15:56:12,984 INFO  MTV.EventBroker.Common.LogManager: Attempting to open MTV.EventBroker.Service.EventBroker service.
+2014-02-17 15:56:13,421 INFO  MTV.EventBroker.Common.LogManager: EventBroker 
+ 'EventBroker' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventBroker at net.tcp://localhost:63747/EventBroker with NetTcpBinding binding; 
+
+2014-02-17 15:56:13,422 INFO  MTV.EventBroker.Common.LogManager: Service Started
+2014-02-17 17:31:39,779 INFO  MTV.EventBroker.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.MebsScheduler.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-02-17 17:31:39,906 INFO  MTV.EventBroker.Common.LogManager: Starting Service
+2014-02-17 17:31:40,799 INFO  MTV.EventBroker.Common.LogManager: Attempting to open MTV.EventBroker.Service.EventBroker service.
+2014-02-17 17:31:41,049 INFO  MTV.EventBroker.Common.LogManager: EventBroker 
+ 'EventBroker' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventBroker at net.tcp://localhost:63747/EventBroker with NetTcpBinding binding; 
+
+2014-02-17 17:31:41,050 INFO  MTV.EventBroker.Common.LogManager: Service Started

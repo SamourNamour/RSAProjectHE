@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Categorization version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/Category_schema.xsd">
+  <Cat default="-1" visible="false">
+    <Id>all</Id>
+    <Name lang="eng">All</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="6" visible="false">
+    <Id>13203</Id>
+    <Name lang="eng">Serie</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="0" visible="true">
+    <Id>13205</Id>
+    <Name lang="eng">Trailer</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>13206</Id>
+    <Name lang="eng">Animation</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="4" visible="true">
+    <Id>13203</Id>
+    <Id>13206</Id>
+    <Name lang="eng">Sport</Name>
+    <MediasetName lang="eng">Sport</MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="1" visible="true">
+    <Id>13207</Id>
+    <Name lang="eng">Romantique</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="3" visible="true">
+    <Id>49207</Id>
+    <Name lang="eng">News</Name>
+    <MediasetName lang="eng">Category Name</MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="5" visible="always">
+    <Id>4400</Id>
+    <Name lang="eng">Movie</Name>
+    <MediasetName lang="eng">Category Name 2</MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>51031</Id>
+    <Name lang="eng">Category Title 3</Name>
+    <MediasetName lang="eng">Category Name 3</MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>26385</Id>
+    <Name lang="eng">Cat Unclass</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>65513</Id>
+    <Name lang="eng">cat unclass 1</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>44857</Id>
+    <Name lang="eng">cat unclass 2</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>60867</Id>
+    <Name lang="eng">cat unclass 3</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>6772</Id>
+    <Name lang="eng">cat unclass 4</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>22681</Id>
+    <Name lang="eng">cat unclass 5</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>49044</Id>
+    <Name lang="eng">cat unclass 7</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="-1" visible="true">
+    <Id>53284</Id>
+    <Name lang="eng">cat unclass 8</Name>
+    <MediasetName lang="eng">
+    </MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+  <Cat default="1" visible="true">
+    <Id>13205</Id>
+    <Id>65513</Id>
+    <Name lang="eng">New Category 16 04</Name>
+    <MediasetName lang="eng">New Category 16 04</MediasetName>
+    <MediasetLCN>-1</MediasetLCN>
+    <StandardLCN>-1</StandardLCN>
+  </Cat>
+</Categorization>

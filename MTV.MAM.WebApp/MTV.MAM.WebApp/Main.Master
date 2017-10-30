@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MTV.MAM.WebApp.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MEBSMAM</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <script type="text/javascript" src="Scripts/javascript.js"></script> 
+    <script type="text/javascript" src="Scripts/ajax.js"></script> 
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/boxover.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager runat="server" ID="sm"/>
+    <div class="master-wrapper-page">
+        <div class="master-wrapper-content">
+            <div class="header">
+              <div class="logo">
+              
+              </div>
+                <div class="AppTitle">
+                  mebs media asset management
+                </div>
+              
+                <div class="links">
+                    <asp:HyperLink ID="lblLoghedUser" runat="server"></asp:HyperLink>
+                    <span class="separator">|</span>
+                    <asp:LinkButton ID="LogOut" runat="server" Text="LogOut" 
+                        CausesValidation="false" onclick="LogOut_Click" ></asp:LinkButton>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Common/ico-user.png" />
+                </div>
+                <div class="header-languageSelector">
+                </div>
+                <div class="version">
+ 
+                    <asp:Label runat="server" ID="lblHeader">
+                        <%=MTV.MAM.WebApp.Helper.AssemblyInfoManager.getAssemblyTitle()%> : <%=MTV.MAM.WebApp.Helper.AssemblyInfoManager.getVersion()%>
+                    </asp:Label>
+                
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="header-menu">
+
+                <asp:Menu ID="mnuAdmin" runat="server"  Orientation="Horizontal" DataSourceID="smdsMenu"
+                    cssselectorclass="AdminMenu" OnMenuItemDataBound="mnuAdmin_MenuItemDataBound"> 
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="smdsMenu" runat="server" ShowStartingNode="false" SiteMapProvider="EBSMAMXmlSiteMapProvider" />
+
+            </div>
+            <div class="status-bar">
+                <div class="help">
+                    <%= MTV.Library.Common.DateTimeHelper.GetCurrentDateTime()  %>
+                </div>
+                <div class="breadcrumb">
+                    <asp:SiteMapPath ID="smp" runat="server" RenderCurrentNodeAsLink="true" 
+                    PathSeparatorStyle-Font-Bold="true"/>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="content">
+                <div class="confirmation">
+                    <center><strong><asp:Literal runat="server" ID="lMessageConfirmation" EnableViewState="false" /></strong></center>
+                </div>
+                <div class="errors">
+                   <center><strong><asp:Literal runat="server" ID="lErrorTitle" EnableViewState="false" /></strong></center>
+<%--                    <asp:Literal runat="server" ID="lErrorComplete" EnableViewState="false" />--%>
+                </div>
+                <div class="cph">
+                    <asp:ContentPlaceHolder ID="cph1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+2014-03-26 21:40:07,407 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 21:40:07,432 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-03-26 21:40:07,586 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-03-26 21:40:07,606 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-03-26 21:40:07,607 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-03-26 21:40:08,063 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:40:08,075 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:45:19,388 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 21:45:19,437 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-03-26 21:45:20,560 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-03-26 21:45:20,854 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:45:20,869 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:45:21,357 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-03-26 21:45:21,359 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-03-26 21:45:39,159 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 21:45:39,185 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-03-26 21:45:39,272 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-03-26 21:45:39,290 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-03-26 21:45:39,292 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-03-26 21:45:39,711 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:45:39,724 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:45:49,731 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:45:49,732 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:45:59,774 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:45:59,775 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:46:40,058 INFO  MTV.EventDequeuer.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.EventDequeuer.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 21:46:40,087 INFO  MTV.EventDequeuer.Common.LogManager: Starting Service
+2014-03-26 21:46:40,175 INFO  MTV.EventDequeuer.Common.LogManager: Attempting to open MTV.EventDequeuer.Service.EventDequeuer service.
+2014-03-26 21:46:40,195 INFO  MTV.EventDequeuer.Common.LogManager: EventDequeuer 
+ 'EventDequeuer' Starting
+Concurrency Mode = Multiple
+InstanceContext Mode = Single
+The following endpoints are exposed:
+IEventDequeuer at net.tcp://localhost:63747/EventDequeuer with NetTcpBinding binding; 
+
+2014-03-26 21:46:40,197 INFO  MTV.EventDequeuer.Common.LogManager: Service Started
+2014-03-26 21:46:40,627 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:46:40,642 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:46:50,647 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:46:50,648 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:47:00,658 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:47:00,661 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled
+2014-03-26 21:47:10,857 DEBUG MTV.EventDequeuer.Common.LogManager: ProcessMessage : <realtimeEvent><eventName>OnNewContentsScheduled</eventName><date>2014-03-27 13:20:04</date></realtimeEvent>
+2014-03-26 21:47:10,859 ERROR MTV.EventDequeuer.Common.LogManager: OnNewContentsScheduled

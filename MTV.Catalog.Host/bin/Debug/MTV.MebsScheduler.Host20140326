@@ -1,0 +1,33 @@
+2014-03-26 10:09:47,477 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 10:09:47,582 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-03-26 10:09:47,755 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-03-26 10:09:48,028 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-03-26 10:09:48,031 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-03-26 12:32:13,065 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 12:32:13,089 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-03-26 12:32:13,139 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-03-26 12:32:13,433 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-03-26 12:32:13,434 INFO  MTV.Catalog.Common.LogManager: Service Started
+2014-03-26 12:32:34,709 INFO  MTV.Catalog.Common.LogManager: Initialising mebs.Gateway service in assembly MTV.Catalog.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null DEBUG console mode.
+2014-03-26 12:32:34,734 INFO  MTV.Catalog.Common.LogManager: Starting Service
+2014-03-26 12:32:34,790 INFO  MTV.Catalog.Common.LogManager: Attempting to open MTV.Catalog.Service service.
+2014-03-26 12:32:34,854 INFO  MTV.Catalog.Common.LogManager: MEBSCatalog 
+ 'MEBSCatalog' Starting
+Concurrency Mode = Single
+InstanceContext Mode = PerCall
+The following endpoints are exposed:
+IRequestHandler at http://localhost:8085/MEBSCatalog with WebHttpBinding binding; 
+
+2014-03-26 12:32:34,856 INFO  MTV.Catalog.Common.LogManager: Service Started
